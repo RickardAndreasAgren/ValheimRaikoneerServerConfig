@@ -1,0 +1,9 @@
+AxeFlametal_TW
+DualKnifeFlametal_TW
+FistFlametal_TW
+VAdagger_meteor
+VAdagger_meteor_2h
+VAflametal_sledge
+VAMeteorAtgeir
+VAMeteorAtgeir_blood
+WarpikeFlametal_TW

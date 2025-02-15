@@ -1,0 +1,17 @@
+ShaderType: Standard
+Name: Theta-Tex
+_Color:
+  r: 1
+  g: 1
+  b: 1
+  a: 1
+_MainTex: Theta-Basemodel05_Body_Diffuse
+_EmissionColor:
+  r: 0
+  g: 0.9716095
+  b: 1
+  a: 1
+Transparent: false
+_Hue: 0
+_Value: 0
+_Saturation: 0

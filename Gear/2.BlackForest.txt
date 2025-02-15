@@ -1,0 +1,13 @@
+BattlehammerElder_TW (Elder)
+BoltBronze_TW
+BowTrollBone_TW
+ThrowAxeBronze_TW
+VAArbalistBronze
+VABoltCoreWood
+VAdagger_copper_2h
+VAElderRoundShield
+VAFist_Bronze
+
+
+
+

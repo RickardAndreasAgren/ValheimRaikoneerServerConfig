@@ -1,0 +1,16 @@
+Rainbow_Butterfly   DOSPAWN
+MolluscanLand <Medium>      DOSPAWN
+Greydwarf_Purple    DOSPAWN
+Greydwarf_Purple_Shroom   DOSPAWN
+NormalSkeletonWarrior   DOSPAWN
+NormalGhostWarrior      DOSPAWN
+ChaosSkeletonWarrior    DOSPAWN
+ML_BlueMistile_Passive  DOSPAWN
+Razorback_TW  DOSPAWN
+BlackBear_TW  DOSPAWN
+OozingSkeleton
+FrostsilkCreeper
+Markatta
+Jaegerjedd
+Hednarjedd
+Gnagarbjerv

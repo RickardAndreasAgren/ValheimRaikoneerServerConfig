@@ -1,0 +1,7 @@
+ArrowBone_TW
+BoltAntler_TW
+CrossbowEikthyr_TW (Eikthyr)
+DualKnifeBone_TW
+SwordBone_TW
+VAatgeir_antler
+

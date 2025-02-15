@@ -1,0 +1,7 @@
+- PrefabName: TrophySkeletonMage_RS
+  AmountMin: 1
+  AmountMax: 1
+  Chance: 0.3
+  OnePerPlayer: false
+  LevelMultiplier: true
+  DoNotScale: false

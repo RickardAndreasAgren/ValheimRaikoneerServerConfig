@@ -1,0 +1,13 @@
+PoisonSkeletonWarrior
+PoisonSkeletonWarriorNoFx
+ChaosSkeletonWarriorNoFX
+ML_RedMistile_Passive
+WraithWarrior
+BrownSpider
+ForestSpider
+HelWraith_TW
+RottingElk_TW
+Crawler_TW
+Jeddyavul
+Wrath Wisp
+Sludge Boar

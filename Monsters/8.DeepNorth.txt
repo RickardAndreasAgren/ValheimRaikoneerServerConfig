@@ -1,0 +1,21 @@
+Wendigo1_RS                           DOSPAWN
+LizardFish_RS (cold heavy reptileman) DOSPAWN
+CatFish_RS (cold fishman)     DOSPAWN
+Creeper_RS            DOSPAWN
+NorthTroll_RS (Arctic troll, furry)     DOSPAWN
+WereBoar_RS             DOSPAWN
+WereWolf_RS             DOSPAWN
+Rat_RS OK               DOSPAWN
+Hatchling_DeepNorth     DOSPAWN
+Squid_RS                DOSPAWN
+Butterfly_RS            DOSPAWN
+Fairy_RS                DOSPAWN
+Yeti_RS                 DOSPAWN
+IceSkeletonWarriorT6
+
+RS_Skeleton_Mage      DOSPAWN
+RS_Skeleton Factions  DOSPAWN
+RS_Skeleton_Rogue     DOSPAWN
+RS_Skeleton_Warlord   DOSPAWN
+RS_Skeleton_King      DOSPAWN
+RS_Skeleton_Warrior   DOSPAWN

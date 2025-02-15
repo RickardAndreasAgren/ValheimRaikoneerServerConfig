@@ -1,0 +1,14 @@
+VASurtlingBolt
+VAarrow_surtling_fire
+VAArrowAncient
+ThrowAxeIron_TW
+BattleAxeIron_TW
+BattlehammerIron_TW
+ClaymoreIron_TW
+CrossbowIron_TW
+DualKnifeIron_TW
+KnifeIron_TW
+VAAtgeirchitin
+VAFist_Iron
+ShieldCarapaceTower_TW
+SledgeBonemass_TW (Bonemass)

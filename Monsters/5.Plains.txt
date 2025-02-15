@@ -1,0 +1,9 @@
+DwarfGoblin       DOSPAWN
+DwarfGoblinLoot     DOSPAWN
+DwarfGoblinShaman   DOSPAWN
+TanSpider     DOSPAWN
+Green_Butterfly   DOSPAWN
+Prowler_TW  DOSPAWN
+Molluscan   <Medium>  DOSPAWN
+Grymsvin
+GrassweaveArachne

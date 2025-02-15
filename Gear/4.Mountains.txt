@@ -1,0 +1,15 @@
+BattleAxeSilver_TW
+BattlehammerSilver_TW
+BoltFrost_TW
+BoltSilver_TW
+ClaymoreSilver_TW
+CrossbowSilver_TW
+DualKnifeSilver_TW
+FistSilver_TW
+GreatbowModer_TW (Moder)
+ThrowAxeSilver_TW
+VAdagger_moder
+VAModer_shield
+VAsilver_tower
+VASpearModer 
+WarpikeObsidian_TW

@@ -1,0 +1,66 @@
+Name/HP/DMG/RES(1-4)
+
+
+Fox_TW	30 10-15 1 Meadows
+TreeSpider_Spawn 20 5 1 Meadows
+GreenSpider 25 20 1 Meadows
+
+BlackBear_TW 120 22-32 1 BlackForest
+Razorback_TW 50 15-22 1 BlackForest
+NormalSkeletonWarrior 40 20-40 2 BlackForest
+NormalGhostWarrior 40 36 3 BlackForest
+ChaosSkeletonWarrior 40 20 3 BlackForest (Force)
+Greydwarf_Purple 40 14 1 BlackForest
+Greydwarf_Purple_Shroom 40 14 1 BlackForest
+MolluscanLand 180 30-50 2 BlackForest (Force)
+
+Crawler_TW	200 44-100 2 Swamp
+RottingElk_TW 140 40-43 1 Swamp
+HelWraith_TW 100 60-80 2 Swamp
+PoisonSkeletonWarrior 80 40-68 2 Swamp
+PoisonSkeletonWarriorNoFx 40 20-55 3 Swamp
+ChaosSkeletonWarriorNoFX 40 55 3 Swamp
+BrownSpider 65 80 2 Swamp
+ForestSpider 90 80 2 Swamp ? : Plains::Forest ?
+WraithWarrior 100 65-115 3 Swamp
+ML_RedMistile_Aggressive ?COPY?
+ML_RedMistile_Aggressive
+
+GrizlyBear_TW 250 80-94 1 Mountain
+ObsidianGolem_TW 600 145-205 3 Mountain
+IceSkeletonWarrior 100 65-90 3 Mountain
+IceSkeletonWarriorNoFx 90 55-75 2 BlackForest:Mountain?
+FrigidSpider 90 60-80 3 Mountain
+FrostSpider 90 60-95 3 Mountain
+
+Prowler_TW 335 82-102 1 Plains
+TanSpider 90 60-80 3 Plains
+DwarfGoblin 80 50-70 1 Plains
+DwarfGoblinLoot 60 0 1 Plains
+DwarfGoblinShaman 60 50 1 Plains
+Molluscan 240 60-70 2 Ocean:Plains
+
+FireSkeletonWarrior 100 125 3 Ashlands
+FireSkeletonWarriorNoFx 100 125-150 4 Ashlands
+ML_AshHuldra 250 115-135 2 Ashlands
+ML_RedMistile_Aggressive 1 150 Ashlands ?? Variant Swamp less damage ?
+
+Yeti_RS 5700 150-200 2 DeepNorth
+Wendigo1_RS 5700 180-250 2 DeepNorth
+IceSkeletonWarriorT6 40 35-36 2 BlackForest:DeepNorth?
+Lizardfish_RS DeepNorth
+NorthTroll_RS DeepNorth
+Rat_RS DeepNorth
+RS_Skeleton DeepNorth
+RS_Skeleton_Warrior DeepNorth
+RS_Skeleton_Rogue DeepNorth
+RS_Skeleton_Mage DeepNorth
+RS_Skeleton_Warlord DeepNorth
+RS_Skeleton_King DeepNorth
+Squid_RS DeepNorth
+
+ML_RedMistile_Passive 1 Swamp + Ashlands Ambient
+ML_BlueMistile_Passive 1 BlackForest + Mountain Ambient
+ML_JellyFish0 50 ? 4 Ocean : Ambient Nonharmless
+Green_Butterfly 5 Ambient
+Silkworm_Butterfly 5 Ambient
