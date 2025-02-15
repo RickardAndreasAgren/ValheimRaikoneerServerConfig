@@ -1,7 +1,7 @@
 name: EitrRoundshieldElder
 m_weight: 3
 m_name: EitrRoundshieldElder
-m_description: $item_elder_roundshield_description
+m_description: $item_eitrelderroundshield_description
 clonePrefabName: VAElderRoundShield
 mockName: 
 customIcon: 

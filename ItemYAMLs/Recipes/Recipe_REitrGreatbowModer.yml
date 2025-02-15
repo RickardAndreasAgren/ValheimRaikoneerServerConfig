@@ -10,7 +10,8 @@ disabledUpgrade: false
 requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
-- Silver:50:25:True
-- Crystal:30:15:True
-- FreezeGland:20:10:True
-- GreatbowModer_TW:1:0:True
+- Chain:10:4:True
+- Silver:5:5:True
+- FreezeGland:5:5:False
+- Eitr:20:10:False
+- GreatbowModer_TW:1:0:False

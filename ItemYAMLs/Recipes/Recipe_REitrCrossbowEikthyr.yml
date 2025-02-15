@@ -10,7 +10,8 @@ disabledUpgrade: false
 requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
-- RoundLog:30:15:True
-- HardAntler:16:8:True
-- DeerHide:16:8:True
-- CrossbowEikthyr_TW:1:0:True
+- BoneFragments:30:20:True
+- Eitr:10:2:True
+- Silver:5:3:False
+- Chain:6:3:True
+- CrossbowEikthyr_TW:1:0:False

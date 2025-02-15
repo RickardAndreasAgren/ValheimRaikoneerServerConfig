@@ -1,7 +1,7 @@
 name: EitrDaggerModer
 m_weight: 0.3
 m_name: EitrDaggerModer
-m_description: $item_dagger_moder_description
+m_description: $item_eitrdaggermoder_description
 clonePrefabName: VAdagger_moder
 mockName: 
 customIcon: 

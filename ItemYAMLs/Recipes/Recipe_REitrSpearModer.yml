@@ -10,9 +10,8 @@ disabledUpgrade: false
 requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
-- ElderBark:15:10:False
-- Obsidian:8:4:False
-- DragonTear:10:0:False
+- FreezeGland:5:5:False
+- Crystal:10:5:False
+- Silver:15:5:True
+- Eitr:12:3:False
 - VASpearModer:1:0:False
-- Silver:0:2:False
-- JuteRed:0:2:False

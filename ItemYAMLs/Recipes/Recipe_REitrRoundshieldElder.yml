@@ -10,7 +10,8 @@ disabledUpgrade: false
 requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
-- Wood:16:8:False
-- Bronze:8:4:False
-- CryptKey:1:1:False
+- AncientSeed:3:1:False
+- Iron:10:5:True
+- ElderBark:30:8:True
+- Eitr:12:3:False
 - VAElderRoundShield:1:0:False

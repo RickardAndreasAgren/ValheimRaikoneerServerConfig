@@ -10,9 +10,8 @@ disabledUpgrade: false
 requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
-- ElderBark:4:2:False
-- Obsidian:15:5:False
-- DragonTear:10:0:False
+- Eitr:8:3:False
+- FreezeGland:5:3:True
+- Pukeberries:10:2:False
+- Needle:2:2:False
 - VAdagger_moder:1:0:False
-- Silver:0:2:False
-- JuteRed:0:2:False

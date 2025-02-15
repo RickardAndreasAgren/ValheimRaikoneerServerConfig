@@ -10,9 +10,8 @@ disabledUpgrade: false
 requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
-- BlackMetal:10:5:False
-- Iron:4:2:False
-- YagluthDrop:2:0:False
+- Coal:40:10:False
+- SurtlingCore:5:3:True
+- BlackMetal:10:5:True
+- Eitr:12:4:False
 - VAYagluth_greatsword:1:0:False
-- Eitr:0:3:False
-- LinenThread:0:2:False

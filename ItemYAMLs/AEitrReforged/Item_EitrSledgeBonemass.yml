@@ -1,7 +1,7 @@
 name: EitrSledgeBonemass
 m_weight: 4
 m_name: EitrSledgeBonemass
-m_description: $sledge_bonemass_description_TW
+m_description: $item_eitrsledgebonemass_description
 clonePrefabName: SledgeBonemass_TW
 mockName: 
 customIcon: 

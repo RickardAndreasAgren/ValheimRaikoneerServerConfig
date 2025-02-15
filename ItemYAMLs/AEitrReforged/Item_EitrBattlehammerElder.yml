@@ -1,7 +1,7 @@
 name: EitrBattlehammerElder
 m_weight: 4
 m_name: EitrBattlehammerElder
-m_description: $battlehammer_elder_description_TW
+m_description: $item_eitrbattlehammerelder_description
 clonePrefabName: BattlehammerElder_TW
 mockName: 
 customIcon: 

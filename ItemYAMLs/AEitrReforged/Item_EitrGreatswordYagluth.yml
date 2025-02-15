@@ -1,7 +1,7 @@
 name: EitrGreatswordYagluth
 m_weight: 4
 m_name: EitrGreatswordYagluth
-m_description: $item_yagluth_greatsword_description
+m_description: $item_eitryagluthgreatsword_description
 clonePrefabName: VAYagluth_greatsword
 mockName: 
 customIcon: 

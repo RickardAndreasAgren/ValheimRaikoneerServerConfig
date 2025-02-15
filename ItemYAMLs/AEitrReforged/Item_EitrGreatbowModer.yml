@@ -1,7 +1,7 @@
 name: EitrGreatbowModer
 m_weight: 3
 m_name: EitrGreatbowModer
-m_description: $greatbow_moder_description_TW
+m_description: $item_eitrgreatbowmoder_description
 clonePrefabName: GreatbowModer_TW
 mockName: 
 customIcon: 

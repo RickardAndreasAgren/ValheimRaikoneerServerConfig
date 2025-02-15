@@ -1,12 +1,13 @@
-TrophySkeletonNightfrost
-TrophyBergaTroll
-TrophyGnagare
-TrophyHednarjedd
-TrophyJaegerjedd
-TrophyJeddyavul
-TrophyKraeftare
-TrophyMarkatta
-TrophySkeletonOoze
+
+$item_eitratgeireikthyr_description
+$item_eitrcrossboweikthyr_description
+$item_eitrbattlehammerelder_description
+$item_eitrelderroundshield_description
+$item_eitrsledgebonemass_description
+$item_eitrdaggermoder_description
+$item_eitrgreatbowmoder_description
+$item_eitrspearmoder_description
+$item_eitryagluthgreatsword_description
 
 $bergatrolltrophy
 $item_trophy_bergatroll_description

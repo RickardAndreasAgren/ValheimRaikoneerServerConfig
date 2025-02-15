@@ -10,7 +10,8 @@ disabledUpgrade: false
 requireOnlyOneIngredient: false
 upgrade_reqs: []
 reqs:
-- ElderBark:30:15:True
-- Stone:40:20:True
-- GreydwarfEye:20:10:True
-- BattlehammerElder_TW:1:0:True
+- Tar:4:2:True
+- YggdrasilWood:3:2:True
+- Eitr:15:3:False
+- Ooze:15:10:False
+- BattlehammerElder_TW:1:0:False

@@ -1,7 +1,7 @@
 name: EitrSpearModer
 m_weight: 1.5
 m_name: EitrSpearModer
-m_description: $item_spear_moder_description
+m_description: $item_eitrspearmoder_description
 clonePrefabName: VASpearModer
 mockName: 
 customIcon: 

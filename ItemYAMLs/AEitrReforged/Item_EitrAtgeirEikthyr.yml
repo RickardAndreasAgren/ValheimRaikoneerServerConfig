@@ -1,7 +1,7 @@
 name: EitrAtgeirEikthyr
 m_weight: 2.5
 m_name: EitrAtgeirEikthyr
-m_description: $item_atgeir_antler_description
+m_description: $item_eitratgeireikthyr_description
 clonePrefabName: VAatgeir_antler
 mockName: 
 customIcon: 
