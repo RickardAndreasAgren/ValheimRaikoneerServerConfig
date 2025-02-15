@@ -1,7 +1,7 @@
 name: REitrSledgeBonemass
 clonePrefabName: EitrSledgeBonemass
-craftingStation: $piece_forge
-minStationLevel: 4
+craftingStation: $piece_blackforge
+minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
 amount: 1
@@ -13,4 +13,4 @@ reqs:
 - Iron:40:20:True
 - Guck:30:15:True
 - Ooze:20:10:True
-- TrophyBonemass:1:1:True
+- SledgeBonemass_TW:1:0:True

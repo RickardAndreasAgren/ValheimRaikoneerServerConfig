@@ -1,7 +1,7 @@
 name: REitrSpearModer
 clonePrefabName: EitrSpearModer
-craftingStation: $piece_forge
-minStationLevel: 4
+craftingStation: $piece_blackforge
+minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
 amount: 1
@@ -13,6 +13,6 @@ reqs:
 - ElderBark:15:10:False
 - Obsidian:8:4:False
 - DragonTear:10:0:False
-- TrophyDragonQueen:1:0:False
+- VASpearModer:1:0:False
 - Silver:0:2:False
 - JuteRed:0:2:False

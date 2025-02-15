@@ -1,7 +1,7 @@
 name: REitrRoundshieldElder
 clonePrefabName: EitrRoundshieldElder
-craftingStation: $piece_forge
-minStationLevel: 2
+craftingStation: $piece_blackforge
+minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
 amount: 1
@@ -13,4 +13,4 @@ reqs:
 - Wood:16:8:False
 - Bronze:8:4:False
 - CryptKey:1:1:False
-- TrophyTheElder:1:1:False
+- VAElderRoundShield:1:0:False

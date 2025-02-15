@@ -1,6 +1,6 @@
 name: REitrAtgeirEikthyr
 clonePrefabName: EitrAtgeirEikthyr
-craftingStation: $piece_workbench
+craftingStation: $piece_blackforge
 minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
@@ -13,4 +13,4 @@ reqs:
 - FineWood:15:0:False
 - Resin:30:15:False
 - HardAntler:3:3:False
-- TrophyEikthyr:1:1:False
+- VAatgeir_antler:1:0:False

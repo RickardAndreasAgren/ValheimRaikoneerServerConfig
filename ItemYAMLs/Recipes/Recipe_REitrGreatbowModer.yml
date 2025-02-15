@@ -1,6 +1,6 @@
 name: REitrGreatbowModer
 clonePrefabName: EitrGreatbowModer
-craftingStation: $piece_fletchertable_TW
+craftingStation: $piece_blackforge
 minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
@@ -13,4 +13,4 @@ reqs:
 - Silver:50:25:True
 - Crystal:30:15:True
 - FreezeGland:20:10:True
-- TrophyDragonQueen:1:1:True
+- GreatbowModer_TW:1:0:True
