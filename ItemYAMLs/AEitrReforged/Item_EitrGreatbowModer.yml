@@ -1,6 +1,6 @@
 name: EitrGreatbowModer
 m_weight: 3
-m_name: EitrGreatbowModer
+m_name: $item_eitrgreatbowmoder
 m_description: $item_eitrgreatbowmoder_description
 clonePrefabName: GreatbowModer_TW
 mockName: 
@@ -32,7 +32,7 @@ Primary_Attack:
   Stamina_Return_Per_Missing_HP: 0
   DmgMultiplier: 1
   ForceMultiplier: 2
-  StaggerMultiplier: 2
+  StaggerMultiplier: 1.25
   RecoilMultiplier: 0
   SelfDamage: 0
   Attack_Kills_Self: false
@@ -46,8 +46,8 @@ Primary_Attack:
   Reload_Stamina_Drain: 0
   Reload_Eitr_Drain: 0
   Bow_Draw: true
-  Bow_Duration_Min: 5
-  Bow_Stamina_Drain: 6
+  Bow_Duration_Min: 4
+  Bow_Stamina_Drain: 10
   Bow_Animation_State: bow_aim
   Attack_Angle: 90
   Attack_Ray_Width: 0
@@ -61,7 +61,7 @@ Primary_Attack:
   SpawnOnHit_Chance: 0
   Attack_status_effect: 
   Attack_status_effect_chance: 
-  Raise_Skill_Amount: 1
+  Raise_Skill_Amount: 2
   Skill_Hit_Type: Character
   Special_Hit_Skill: None
   Special_Hit_Type: None
@@ -105,7 +105,7 @@ Secondary_Attack:
   Stamina_Return_Per_Missing_HP: 0
   DmgMultiplier: 1
   ForceMultiplier: 1
-  StaggerMultiplier: 1
+  StaggerMultiplier: 0.5
   RecoilMultiplier: 0
   SelfDamage: 0
   Attack_Kills_Self: false
@@ -139,7 +139,7 @@ Secondary_Attack:
   Special_Hit_Skill: None
   Special_Hit_Type: None
   Attack_Projectile: 
-  Projectile_Vel: 10
+  Projectile_Vel: 18
   Projectile_Accuraccy: 10
   Projectiles: 1
   Skill_Accuracy: false
@@ -164,7 +164,7 @@ Damage:
   Damage: 0
   Fire: 0
   Frost: 60
-  Lightning: 0
+  Lightning: 15
   Pickaxe: 0
   Pierce: 25
   Poison: 0
@@ -175,10 +175,10 @@ Damage_Per_Level:
   Chop: 0
   Damage: 0
   Fire: 0
-  Frost: 6
-  Lightning: 0
+  Frost: 4
+  Lightning: 1
   Pickaxe: 0
-  Pierce: 4
+  Pierce: 3
   Poison: 0
   Slash: 0
   Spirit: 0
@@ -187,7 +187,7 @@ Armor:
   armorPerLevel: 1
 FoodStats: 
 Moddifiers:
-  m_movementModifier: -0.05
+  m_movementModifier: -0.1
   m_EitrRegen: 0
   m_homeItemsStaminaModifier: 0
   m_heatResistanceModifier: 0
@@ -202,10 +202,10 @@ SE_Equip:
   EffectName: SE_Piercer_TW
 SE_SET_Equip: 
 ShieldStats:
-  m_blockPower: 6
+  m_blockPower: 10
   m_blockPowerPerLevel: 0
   m_timedBlockBonus: 1.5
-  m_deflectionForce: 0
+  m_deflectionForce: 30
   m_deflectionForcePerLevel: 0
 m_maxStackSize: 1
 m_canBeReparied: true
@@ -218,7 +218,7 @@ spawn_on_terrain_hit:
 m_questItem: false
 m_teleportable: true
 m_backstabbonus: 4
-m_knockback: 70
+m_knockback: 60
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
@@ -229,7 +229,7 @@ Attach_Override: None
 m_skillType: Bows
 m_animationState: Bow
 m_itemType: Bow
-m_toolTier: 0
+m_toolTier: 1
 m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 

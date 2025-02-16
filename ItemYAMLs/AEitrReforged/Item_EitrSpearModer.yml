@@ -1,6 +1,6 @@
 name: EitrSpearModer
-m_weight: 1.5
-m_name: EitrSpearModer
+m_weight: 1.8
+m_name: $item_eitrspearmoder
 m_description: $item_eitrspearmoder_description
 clonePrefabName: VASpearModer
 mockName: 
@@ -20,7 +20,7 @@ Primary_Attack:
   Hit_Terrain: true
   Hit_Friendly: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 12
+  m_attackStamina: 15
   m_eitrCost: 0
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
@@ -93,7 +93,7 @@ Secondary_Attack:
   Hit_Terrain: true
   Hit_Friendly: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 14
+  m_attackStamina: 16
   m_eitrCost: 0
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
@@ -104,7 +104,7 @@ Secondary_Attack:
   Damage_Multiplier_By_Health_Deficit_Percent: 0
   Stamina_Return_Per_Missing_HP: 0
   DmgMultiplier: 1.5
-  ForceMultiplier: 1.5
+  ForceMultiplier: 1
   StaggerMultiplier: 1
   RecoilMultiplier: 0
   SelfDamage: 0
@@ -139,7 +139,7 @@ Secondary_Attack:
   Special_Hit_Skill: None
   Special_Hit_Type: None
   Attack_Projectile: VAspearmoder_projectile
-  Projectile_Vel: 20
+  Projectile_Vel: 24
   Projectile_Accuraccy: 1
   Projectiles: 1
   Skill_Accuracy: false
@@ -163,13 +163,13 @@ Damage:
   Chop: 0
   Damage: 0
   Fire: 0
-  Frost: 25
+  Frost: 20
   Lightning: 0
   Pickaxe: 0
-  Pierce: 45
+  Pierce: 5
   Poison: 0
-  Slash: 30
-  Spirit: 0
+  Slash: 70
+  Spirit: 15
 Damage_Per_Level:
   Blunt: 0
   Chop: 0
@@ -180,8 +180,8 @@ Damage_Per_Level:
   Pickaxe: 0
   Pierce: 2
   Poison: 0
-  Slash: 4
-  Spirit: 0
+  Slash: 2
+  Spirit: 2
 Armor:
   armor: 15
   armorPerLevel: 1
@@ -201,9 +201,9 @@ Moddifiers:
 SE_Equip: 
 SE_SET_Equip: 
 ShieldStats:
-  m_blockPower: 30
-  m_blockPowerPerLevel: 0
-  m_timedBlockBonus: 2
+  m_blockPower: 52
+  m_blockPowerPerLevel: 4
+  m_timedBlockBonus: 2.5
   m_deflectionForce: 20
   m_deflectionForcePerLevel: 5
 m_maxStackSize: 1
@@ -221,14 +221,14 @@ m_knockback: 20
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 100
-m_durabilityPerLevel: 50
+m_maxDurability: 200
+m_durabilityPerLevel: 75
 m_equipDuration: 0.2
 Attach_Override: TwoHandedWeapon
 m_skillType: Spears
 m_animationState: OneHanded
 m_itemType: OneHandedWeapon
-m_toolTier: 3
+m_toolTier: 1
 m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 

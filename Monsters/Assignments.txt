@@ -64,3 +64,32 @@ ML_BlueMistile_Passive 1 BlackForest + Mountain Ambient
 ML_JellyFish0 50 ? 4 Ocean : Ambient Nonharmless
 Green_Butterfly 5 Ambient
 Silkworm_Butterfly 5 Ambient
+
+CAMPMOBS:
+Blob
+Charred_Archer
+Charred_Mage
+Charred_Twitcher
+Draugr
+Draugr_Elite
+Draugr_Ranged
+Dverger
+DvergerMage
+Fenring_Cultist
+Fenring_Cultist_Hildir
+Ghost
+Goblin
+GoblinArcher
+GoblinBrute
+GoblinShaman
+Greydwarf
+Greydwarf_Elite
+Greydwarf_Shaman
+Morgen
+Seeker
+SeekerBrute
+Skeleton
+Skeleton_Hildir
+Skeleton_Poison
+Surtling
+Ulv

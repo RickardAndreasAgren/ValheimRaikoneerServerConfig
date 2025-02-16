@@ -1,6 +1,6 @@
 name: EitrBattlehammerElder
 m_weight: 4
-m_name: EitrBattlehammerElder
+m_name: $item_eitrbattlehammerelder
 m_description: $item_eitrbattlehammerelder_description
 clonePrefabName: BattlehammerElder_TW
 mockName: 
@@ -20,7 +20,7 @@ Primary_Attack:
   Hit_Terrain: true
   Hit_Friendly: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 14
+  m_attackStamina: 22
   m_eitrCost: 0
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
@@ -31,7 +31,7 @@ Primary_Attack:
   Damage_Multiplier_By_Health_Deficit_Percent: 0
   Stamina_Return_Per_Missing_HP: 0
   DmgMultiplier: 1
-  ForceMultiplier: 1
+  ForceMultiplier: 1.5
   StaggerMultiplier: 1.5
   RecoilMultiplier: 0
   SelfDamage: 0
@@ -93,7 +93,7 @@ Secondary_Attack:
   Hit_Terrain: true
   Hit_Friendly: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 22
+  m_attackStamina: 35
   m_eitrCost: 0
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
@@ -159,29 +159,29 @@ Secondary_Attack:
     Trail_Effect: []
     Burst_Effect: []
 Damage:
-  Blunt: 52
+  Blunt: 60
   Chop: 0
   Damage: 0
-  Fire: 0
+  Fire: 25
   Frost: 0
   Lightning: 0
   Pickaxe: 0
   Pierce: 0
-  Poison: 0
+  Poison: 50
   Slash: 0
-  Spirit: 10
+  Spirit: 0
 Damage_Per_Level:
   Blunt: 6
   Chop: 0
   Damage: 0
-  Fire: 0
+  Fire: 2
   Frost: 0
   Lightning: 0
   Pickaxe: 0
   Pierce: 0
-  Poison: 0
+  Poison: 5
   Slash: 0
-  Spirit: 1
+  Spirit: 0
 Armor:
   armor: 20
   armorPerLevel: 1
@@ -202,10 +202,10 @@ SE_Equip:
   EffectName: SE_Smasher_TW
 SE_SET_Equip: 
 ShieldStats:
-  m_blockPower: 28
-  m_blockPowerPerLevel: 0
+  m_blockPower: 55
+  m_blockPowerPerLevel: 5
   m_timedBlockBonus: 2
-  m_deflectionForce: 70
+  m_deflectionForce: 40
   m_deflectionForcePerLevel: 5
 m_maxStackSize: 1
 m_canBeReparied: true
@@ -229,7 +229,7 @@ Attach_Override: None
 m_skillType: Clubs
 m_animationState: TwoHandedClub
 m_itemType: TwoHandedWeapon
-m_toolTier: 0
+m_toolTier: 1
 m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 

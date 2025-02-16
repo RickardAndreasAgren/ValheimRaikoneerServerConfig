@@ -1,6 +1,6 @@
 name: EitrDaggerModer
 m_weight: 0.3
-m_name: EitrDaggerModer
+m_name: $item_eitrdaggermoder
 m_description: $item_eitrdaggermoder_description
 clonePrefabName: VAdagger_moder
 mockName: 
@@ -20,7 +20,7 @@ Primary_Attack:
   Hit_Terrain: true
   Hit_Friendly: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 10
+  m_attackStamina: 12
   m_eitrCost: 0
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
@@ -93,7 +93,7 @@ Secondary_Attack:
   Hit_Terrain: true
   Hit_Friendly: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 30
+  m_attackStamina: 35
   m_eitrCost: 0
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
@@ -163,31 +163,31 @@ Damage:
   Chop: 0
   Damage: 0
   Fire: 0
-  Frost: 8
+  Frost: 14
   Lightning: 0
   Pickaxe: 0
-  Pierce: 28
-  Poison: 0
-  Slash: 28
+  Pierce: 26
+  Poison: 20
+  Slash: 26
   Spirit: 0
 Damage_Per_Level:
   Blunt: 0
   Chop: 0
   Damage: 0
   Fire: 0
-  Frost: 1
+  Frost: 2
   Lightning: 0
   Pickaxe: 0
-  Pierce: 1
-  Poison: 0
-  Slash: 1
+  Pierce: 2
+  Poison: 2
+  Slash: 2
   Spirit: 0
 Armor:
   armor: 20
   armorPerLevel: 1
 FoodStats: 
 Moddifiers:
-  m_movementModifier: 0
+  m_movementModifier: +1.05
   m_EitrRegen: 0
   m_homeItemsStaminaModifier: 0
   m_heatResistanceModifier: 0
@@ -201,10 +201,10 @@ Moddifiers:
 SE_Equip: 
 SE_SET_Equip: 
 ShieldStats:
-  m_blockPower: 2
-  m_blockPowerPerLevel: 0
+  m_blockPower: 20
+  m_blockPowerPerLevel: 2
   m_timedBlockBonus: 4
-  m_deflectionForce: 10
+  m_deflectionForce: 15
   m_deflectionForcePerLevel: 5
 m_maxStackSize: 1
 m_canBeReparied: true
@@ -222,13 +222,13 @@ m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
 m_maxDurability: 200
-m_durabilityPerLevel: 50
+m_durabilityPerLevel: 75
 m_equipDuration: 0.2
 Attach_Override: Tool
 m_skillType: Knives
 m_animationState: Unarmed
 m_itemType: OneHandedWeapon
-m_toolTier: 3
+m_toolTier: 1
 m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 

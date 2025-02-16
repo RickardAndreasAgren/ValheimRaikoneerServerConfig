@@ -1,6 +1,6 @@
 name: EitrAtgeirEikthyr
-m_weight: 2.5
-m_name: EitrAtgeirEikthyr
+m_weight: 3
+m_name: $item_eitratgeireikthyr
 m_description: $item_eitratgeireikthyr_description
 clonePrefabName: VAatgeir_antler
 mockName: 
@@ -20,7 +20,7 @@ Primary_Attack:
   Hit_Terrain: true
   Hit_Friendly: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 12
+  m_attackStamina: 18
   m_eitrCost: 0
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
@@ -93,7 +93,7 @@ Secondary_Attack:
   Hit_Terrain: true
   Hit_Friendly: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 24
+  m_attackStamina: 22
   m_eitrCost: 0
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
@@ -162,11 +162,11 @@ Damage:
   Blunt: 0
   Chop: 0
   Damage: 0
-  Fire: 0
+  Fire: 20
   Frost: 0
-  Lightning: 10
+  Lightning: 25
   Pickaxe: 0
-  Pierce: 35
+  Pierce: 75
   Poison: 0
   Slash: 0
   Spirit: 0
@@ -174,11 +174,11 @@ Damage_Per_Level:
   Blunt: 0
   Chop: 0
   Damage: 0
-  Fire: 0
+  Fire: 2
   Frost: 0
-  Lightning: 1
+  Lightning: 3
   Pickaxe: 0
-  Pierce: 5
+  Pierce: 4
   Poison: 0
   Slash: 0
   Spirit: 0
@@ -201,10 +201,10 @@ Moddifiers:
 SE_Equip: 
 SE_SET_Equip: 
 ShieldStats:
-  m_blockPower: 14
-  m_blockPowerPerLevel: 0
+  m_blockPower: 60
+  m_blockPowerPerLevel: 4
   m_timedBlockBonus: 2
-  m_deflectionForce: 40
+  m_deflectionForce: 35
   m_deflectionForcePerLevel: 5
 m_maxStackSize: 1
 m_canBeReparied: true
@@ -221,8 +221,8 @@ m_knockback: 30
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 175
-m_durabilityPerLevel: 50
+m_maxDurability: 200
+m_durabilityPerLevel: 75
 m_equipDuration: 0.2
 Attach_Override: Attach_Atgeir
 m_skillType: Polearms

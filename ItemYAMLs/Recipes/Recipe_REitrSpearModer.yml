@@ -1,7 +1,7 @@
 name: REitrSpearModer
 clonePrefabName: EitrSpearModer
 craftingStation: $piece_blackforge
-minStationLevel: 1
+minStationLevel: 2
 maxStationLevelCap: 
 repairStation: 
 amount: 1

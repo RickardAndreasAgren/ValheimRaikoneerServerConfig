@@ -1,7 +1,7 @@
 name: REitrRoundshieldElder
 clonePrefabName: EitrRoundshieldElder
 craftingStation: $piece_blackforge
-minStationLevel: 1
+minStationLevel: 2
 maxStationLevelCap: 
 repairStation: 
 amount: 1

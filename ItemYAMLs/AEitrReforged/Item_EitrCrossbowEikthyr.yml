@@ -1,6 +1,6 @@
 name: EitrCrossbowEikthyr
-m_weight: 1.5
-m_name: EitrCrossbowEikthyr
+m_weight: 3
+m_name: $item_eitrcrossboweikthyr
 m_description: $item_eitrcrossboweikthyr_description
 clonePrefabName: CrossbowEikthyr_TW
 mockName: 
@@ -31,7 +31,7 @@ Primary_Attack:
   Damage_Multiplier_By_Health_Deficit_Percent: 0
   Stamina_Return_Per_Missing_HP: 0
   DmgMultiplier: 1
-  ForceMultiplier: 1
+  ForceMultiplier: 1.25
   StaggerMultiplier: 1
   RecoilMultiplier: 40
   SelfDamage: 0
@@ -41,7 +41,7 @@ Primary_Attack:
   Spawn_On_Trigger: 
   Requires_Reload: true
   Reload_Animation: reload_crossbow
-  ReloadTime: 3.5
+  ReloadTime: 3
   ReloadTimeMultiplier: 1
   Reload_Stamina_Drain: 1
   Reload_Eitr_Drain: 0
@@ -139,7 +139,7 @@ Secondary_Attack:
   Special_Hit_Skill: None
   Special_Hit_Type: None
   Attack_Projectile: 
-  Projectile_Vel: 10
+  Projectile_Vel: 30
   Projectile_Accuraccy: 10
   Projectiles: 1
   Skill_Accuracy: false
@@ -164,12 +164,12 @@ Damage:
   Damage: 0
   Fire: 0
   Frost: 0
-  Lightning: 3
+  Lightning: 25
   Pickaxe: 0
-  Pierce: 38
+  Pierce: 135
   Poison: 0
   Slash: 0
-  Spirit: 0
+  Spirit: 25
 Damage_Per_Level:
   Blunt: 0
   Chop: 0
@@ -178,10 +178,10 @@ Damage_Per_Level:
   Frost: 0
   Lightning: 2
   Pickaxe: 0
-  Pierce: 3
+  Pierce: 4
   Poison: 0
   Slash: 0
-  Spirit: 0
+  Spirit: 2
 Armor:
   armor: 15
   armorPerLevel: 1
@@ -222,14 +222,14 @@ m_knockback: 95
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 100
-m_durabilityPerLevel: 100
+m_maxDurability: 150
+m_durabilityPerLevel: 80
 m_equipDuration: 0.2
 Attach_Override: Shield
 m_skillType: Crossbows
 m_animationState: Crossbow
 m_itemType: Bow
-m_toolTier: 0
+m_toolTier: 1
 m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 

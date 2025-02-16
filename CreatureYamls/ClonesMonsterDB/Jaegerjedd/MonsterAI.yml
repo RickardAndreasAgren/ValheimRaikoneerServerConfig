@@ -47,7 +47,7 @@ FleeInLava: true
 CirculateWhileCharging: false
 CirculateWhileChargingFlying: false
 EnableHuntPlayer: false
-AttackPlayerObjects: true
+AttackPlayerObjects: false
 PrivateAreaTriggerThreshold: 4
 InterceptTimeMax: 2
 InterceptTimeMin: 0
