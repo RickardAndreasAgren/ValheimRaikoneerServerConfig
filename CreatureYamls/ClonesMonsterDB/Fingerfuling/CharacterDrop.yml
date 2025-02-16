@@ -1,21 +1,21 @@
 - PrefabName: Coins
   AmountMin: 5
-  AmountMax: 8
+  AmountMax: 33
   Chance: 1
   OnePerPlayer: false
   LevelMultiplier: true
   DoNotScale: false
 - PrefabName: Amber
-  AmountMin: 2
-  AmountMax: 4
+  AmountMin: 1
+  AmountMax: 2
   Chance: 1
-  OnePerPlayer: false
+  OnePerPlayer: true
   LevelMultiplier: true
   DoNotScale: false
 - PrefabName: Ruby
   AmountMin: 1
-  AmountMax: 3
+  AmountMax: 2
   Chance: 1
-  OnePerPlayer: false
+  OnePerPlayer: true
   LevelMultiplier: true
   DoNotScale: false
