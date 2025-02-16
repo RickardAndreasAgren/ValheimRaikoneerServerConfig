@@ -31,7 +31,7 @@
   clearArea: true
   noBuild: true
 - prefab: AltarSvalt_TW
-  enabled: true
+  enabled: false
   biome: BlackForest
   biomeArea: median
   quantity: 15
