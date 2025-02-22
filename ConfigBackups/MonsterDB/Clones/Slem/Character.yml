@@ -10,7 +10,7 @@ DefeatSetGlobalKey: ''
 AISkipTarget: false
 CrouchSpeed: 2
 WalkSpeed: 5
-Speed: 1
+Speed: 2
 TurnSpeed: 100
 RunSpeed: 3
 RunTurnSpeed: 100

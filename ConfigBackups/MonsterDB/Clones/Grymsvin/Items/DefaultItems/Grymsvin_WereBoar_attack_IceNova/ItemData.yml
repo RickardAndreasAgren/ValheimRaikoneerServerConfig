@@ -19,7 +19,7 @@ SpawnOnHit: ''
 SpawnOnHitTerrain: ''
 AttackStatusEffect: ''
 AttackStatusEffectChance: 1
-AttackType: Horizontal
+AttackType: area
 AttackAnimation: attack_nova
 HitTerrain: true
 HitFriendly: false
@@ -31,7 +31,7 @@ StaggerMultiplier: 1
 RecoilPushback: 0
 SelfDamage: 0
 AttackOriginJoint: ''
-AttackRange: 0.7
+AttackRange: 0.9
 AttackHeight: 1.5
 AttackOffset: 0.3
 SpawnOnTrigger: ''

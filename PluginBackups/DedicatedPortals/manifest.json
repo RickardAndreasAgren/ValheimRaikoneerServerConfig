@@ -1,0 +1,9 @@
+{
+  "name": "DEDICATED_PORTALS",
+  "version_number": "0.1.0",
+  "website_url": "",
+  "description": "Ever found portals too accessible and cheap, but didn't feel right with removing them either? This makes an attempt at turning portals into a true commitment you have to think twice about.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2102"
+  ]
+}

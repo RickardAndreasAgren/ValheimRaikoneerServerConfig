@@ -2,7 +2,7 @@ ClonedFrom: ''
 PrefabName: MolluscanLand
 Name: $enemy_landmolluscan
 Group: ''
-Faction: ForestMonsters
+Faction: SeaMonsters
 Boss: false
 DoNotHideBossHUD: false
 BossEvent: ''

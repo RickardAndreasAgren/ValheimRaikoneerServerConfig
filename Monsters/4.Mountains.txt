@@ -1,10 +1,10 @@
-IceSkeletonWarrior    DOSPAWN
-IceSkeletonWarriorNoFx  DOSPAWN
-FrigidSpider      DOSPAWN
-FrostSpider       DOSPAWN
-ML_BlueMistile_Passive    DOSPAWN
-ObsidianGolem_TW    DOSPAWN
-GrizzlyBear_TW      DOSPAWN
+IceSkeletonWarrior
+IceSkeletonWarriorNoFx
+FrigidSpider
+FrostSpider
+ML_BlueMistile_Passive
+ObsidianGolem_TW
+GrizzlyBear_TW
 HemnarWraith
 SnowthreadCreeper
 Bergatroll

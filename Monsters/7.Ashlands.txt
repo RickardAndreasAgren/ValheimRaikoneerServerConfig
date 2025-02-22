@@ -1,5 +1,5 @@
-ML_AshHuldra      DOSPAWN
-FireSkeletonWarrior     DOSPAWN
-FireSkeletonWarriorNoFx     DOSPAWN
-ML_RedMistile_Passive     DOSPAWN
-ML_RedMistile_Aggressive  DOSPAWN
+ML_AshHuldra
+FireSkeletonWarrior
+FireSkeletonWarriorNoFx
+ML_RedMistile_Passive
+ML_RedMistile_Aggressive

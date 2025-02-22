@@ -1,13 +1,13 @@
-Rainbow_Butterfly   DOSPAWN
-MolluscanLand <Medium>      DOSPAWN
-Greydwarf_Purple    DOSPAWN
-Greydwarf_Purple_Shroom   DOSPAWN
-NormalSkeletonWarrior   DOSPAWN
-NormalGhostWarrior      DOSPAWN
-ChaosSkeletonWarrior    DOSPAWN
-ML_BlueMistile_Passive  DOSPAWN
-Razorback_TW  DOSPAWN
-BlackBear_TW  DOSPAWN
+Rainbow_Butterfly
+MolluscanLand <Medium>
+Greydwarf_Purple
+Greydwarf_Purple_Shroom
+NormalSkeletonWarrior
+NormalGhostWarrior
+ChaosSkeletonWarrior
+ML_BlueMistile_Passive
+Razorback_TW
+BlackBear_TW
 OozingSkeleton
 FrostsilkCreeper
 Markatta
