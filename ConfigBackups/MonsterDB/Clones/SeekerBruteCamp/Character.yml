@@ -1,6 +1,6 @@
 ClonedFrom: SeekerBrute
 PrefabName: SeekerBruteCamp
-Name: $enemy_seekerbrute
+Name: $enemy_seekerbrutecamp
 Group: ''
 Faction: MistlandsMonsters
 Boss: false

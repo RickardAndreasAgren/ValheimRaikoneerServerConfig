@@ -1,6 +1,6 @@
 ClonedFrom: Draugr
 PrefabName: DraugrCamp
-Name: $enemy_draugr
+Name: $enemy_draugrcamp
 Group: ''
 Faction: Undead
 Boss: false

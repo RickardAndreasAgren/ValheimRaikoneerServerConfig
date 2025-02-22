@@ -1,6 +1,6 @@
 ClonedFrom: Draugr_Elite
 PrefabName: Draugr_EliteCamp
-Name: $enemy_draugrelite
+Name: $enemy_draugrelitecamp
 Group: ''
 Faction: Undead
 Boss: false

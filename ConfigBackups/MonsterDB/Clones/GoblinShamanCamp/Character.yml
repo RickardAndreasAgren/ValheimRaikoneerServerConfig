@@ -1,6 +1,6 @@
 ClonedFrom: GoblinShaman
 PrefabName: GoblinShamanCamp
-Name: $enemy_goblinshaman
+Name: $enemy_goblinshamancamp
 Group: ''
 Faction: PlainsMonsters
 Boss: false

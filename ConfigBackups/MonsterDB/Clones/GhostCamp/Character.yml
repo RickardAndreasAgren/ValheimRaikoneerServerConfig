@@ -1,6 +1,6 @@
 ClonedFrom: Ghost
 PrefabName: GhostCamp
-Name: $enemy_ghost
+Name: $enemy_ghostcamp
 Group: ''
 Faction: Undead
 Boss: false

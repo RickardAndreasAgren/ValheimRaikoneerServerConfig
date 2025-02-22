@@ -1,6 +1,6 @@
 ClonedFrom: Ulv
 PrefabName: UlvCamp
-Name: $enemy_ulv
+Name: $enemy_ulvcamp
 Group: ''
 Faction: MountainMonsters
 Boss: false

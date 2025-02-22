@@ -1,6 +1,6 @@
 ClonedFrom: Fenring_Cultist
 PrefabName: Fenring_CultistCamp
-Name: $enemy_fenringcultist
+Name: $enemy_fenringcultistcamp
 Group: ''
 Faction: MountainMonsters
 Boss: false

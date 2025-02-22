@@ -1,6 +1,6 @@
 ClonedFrom: GoblinBrute
 PrefabName: GoblinBruteCamp
-Name: $enemy_goblinbrute
+Name: $enemy_goblinbrutecamp
 Group: ''
 Faction: PlainsMonsters
 Boss: false

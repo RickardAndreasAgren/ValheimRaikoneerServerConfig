@@ -1,6 +1,6 @@
 ClonedFrom: Skeleton_Hildir
 PrefabName: Skeleton_HildirCamp
-Name: $enemy_skeletonfire
+Name: $enemy_skeletonfirecamp
 Group: ''
 Faction: Undead
 Boss: false

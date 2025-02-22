@@ -1,6 +1,6 @@
 ClonedFrom: Greydwarf
 PrefabName: GreydwarfCamp
-Name: $enemy_greydwarf
+Name: $enemy_greydwarfcamp
 Group: ''
 Faction: ForestMonsters
 Boss: false

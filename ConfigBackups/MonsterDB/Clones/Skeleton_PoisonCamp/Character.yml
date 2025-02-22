@@ -1,6 +1,6 @@
 ClonedFrom: Skeleton_Poison
 PrefabName: Skeleton_PoisonCamp
-Name: $enemy_skeletonpoison
+Name: $enemy_skeletonpoisoncamp
 Group: ''
 Faction: Undead
 Boss: false

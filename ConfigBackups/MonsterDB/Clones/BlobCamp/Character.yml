@@ -1,6 +1,6 @@
 ClonedFrom: Blob
 PrefabName: BlobCamp
-Name: $enemy_blob
+Name: $enemy_blobcamp
 Group: ''
 Faction: Undead
 Boss: false

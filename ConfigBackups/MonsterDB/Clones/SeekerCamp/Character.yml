@@ -1,6 +1,6 @@
 ClonedFrom: Seeker
 PrefabName: SeekerCamp
-Name: $enemy_seeker
+Name: $enemy_seekercamp
 Group: ''
 Faction: MistlandsMonsters
 Boss: false

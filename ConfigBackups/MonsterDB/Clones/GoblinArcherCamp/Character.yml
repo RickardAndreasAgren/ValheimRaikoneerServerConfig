@@ -1,6 +1,6 @@
 ClonedFrom: GoblinArcher
 PrefabName: GoblinArcherCamp
-Name: $enemy_goblin
+Name: $enemy_goblincamp
 Group: ''
 Faction: PlainsMonsters
 Boss: false

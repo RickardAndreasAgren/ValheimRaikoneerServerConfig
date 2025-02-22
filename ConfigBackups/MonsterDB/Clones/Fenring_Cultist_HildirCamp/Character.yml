@@ -1,6 +1,6 @@
 ClonedFrom: Fenring_Cultist_Hildir
 PrefabName: Fenring_Cultist_HildirCamp
-Name: $enemy_fenringcultist_hildir
+Name: $enemy_fenringcultist_hildircamp
 Group: ''
 Faction: MountainMonsters
 Boss: false
