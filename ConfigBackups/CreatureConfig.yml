@@ -455,50 +455,48 @@
 groups:
   Strong Enemies:
     - Seeker Warrior
-    - SeekerBruteCamp
+    - Seeker Vanguard
     - Lox
     - Troll
     - Fuling Berserker
-    - GoblinBruteCamp
+    - Fularing Brute
     - Stone Golem
     - Abomination
-    - BergaTroll
-    - ObsidianGolem_TW
+    - Bergatroll
+    - Obsidian Golem
     - Grymsvin
-    - GrassweaveArachne
+    - Grassweave Orb
   BlackForestCamp:
-    - Skeleton_HildirCamp
-    - GreydwarfCamp
-    - Greydwarf_EliteCamp
-    - Greydwarf_ShamanCamp
-    - Skeleton_PoisonCamp
-    - SkeletonCamp
+    - Ignited Guard
+    - Mossdwarf
+    - Mossdwarf Brute
+    - Mossdwarf Shaman
+    - Rancid Guard
+    - Skeleton Guard
     - GhostCamp
   SwampCamp:
-    - BlobCamp
-    - DraugrCamp
-    - Draugr_EliteCamp
-    - Draugr_RangedCamp
-    - SurtlingCamp
+    - Bubbelblob
+    - Depths Draugr
+    - Depths Draugr Elite
+    - Sörtling
   MountainsCamp:
-    - Fenring_CultistCamp
-    - Fenring_Cultist_HildirCamp
-    - UlvCamp
+    - Cultist Scion
+    - Zealot
+    - Ulfv
   PlainsCamp:
-    - GoblinCamp
-    - GoblinArcherCamp
-    - GoblinBruteCamp
-    - GoblinShamanCamp
+    - Fularing
+    - Fularing Brute
+    - Fularing Shaman
   MistlandsCamp:
-    - DvergerCamp
-    - DvergerMageCamp
-    - SeekerCamp
-    - SeekerBruteCamp
+    - Dvergr Ranger
+    - Dvergr Magus
+    - Seeker Guard
+    - Seeker Vanguard
   AshlandsCamp:
-    - Charred_ArcherCamp
-    - Charred_MageCamp
-    - Charred_TwitcherCamp
-    - MorgenCamp
+    - Charred Sharpshooter
+    - Charred Darkling
+    - Charred Rager
+    - Lurmorgen
 
 
 Skeleton_NoArcher:
