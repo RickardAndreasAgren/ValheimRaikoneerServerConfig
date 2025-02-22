@@ -1,5 +1,5 @@
-ViewRange: 30
-ViewAngle: 90
+ViewRange: 40
+ViewAngle: 70
 HearRange: 9999
 MistVision: false
 IdleSoundInterval: 5
@@ -12,7 +12,7 @@ SerpentTurnRadius: 20
 JumpInterval: 0
 RandomCircleInterval: 2
 RandomMoveInterval: 20
-RandomMoveRange: 10
+RandomMoveRange: 3
 RandomFly: false
 ChanceToTakeOff: 1
 ChanceToLand: 1
@@ -36,7 +36,7 @@ AlertedMessage: ''
 FleeRange: 25
 FleeAngle: 45
 FleeInterval: 2
-AlertRange: 20
+AlertRange: 30
 FleeIfHurtWhenTargetCannotBeReached: true
 FleeUnreachableSinceAttack: 30
 FleeUnreachableSinceHurt: 20

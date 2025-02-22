@@ -2,7 +2,7 @@ ClonedFrom: CatFish_RS
 PrefabName: Hednarjedd
 Name: $enemy_hednarjedd
 Group: ''
-Faction: MountainMonsters
+Faction: SeaMonsters
 Boss: false
 DoNotHideBossHUD: false
 BossEvent: ''

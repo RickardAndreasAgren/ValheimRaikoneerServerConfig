@@ -71,7 +71,7 @@
   bounds: 64,64,256
 - name: DG_ForestCrypt
   algorithm: Dungeon
-  maxRooms: 40
+  maxRooms: 48
   minRooms: 20
   minRequiredRooms: 1
   requiredRooms: forestcrypt_new_BurialChamber01, forestcrypt_new_BurialChamber02, forestcrypt_new_BurialChamber03, forestcrypt_new_BurialChamber04, forestcrypt_new_BurialChamber05
@@ -130,7 +130,7 @@
   bounds: 64,64,256
 - name: DG_Hildir_ForestCrypt
   algorithm: Dungeon
-  maxRooms: 40
+  maxRooms: 45
   minRooms: 20
   minRequiredRooms: 1
   requiredRooms: forestcrypt_chamber_hildir
@@ -184,7 +184,7 @@
   bounds: 64
 - name: DG_SunkenCrypt
   algorithm: Dungeon
-  maxRooms: 30
+  maxRooms: 34
   minRooms: 20
   themes: SunkenCrypt
   doorTypes:

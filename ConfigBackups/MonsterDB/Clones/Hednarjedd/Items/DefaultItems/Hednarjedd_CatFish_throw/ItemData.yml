@@ -4,7 +4,7 @@ ToolTier: 0
 Damage: 0
 Blunt: 0
 Slash: 0
-Pierce: 45
+Pierce: 35
 Chop: 0
 Pickaxe: 0
 Fire: 0
@@ -31,7 +31,7 @@ StaggerMultiplier: 1
 RecoilPushback: 0
 SelfDamage: 0
 AttackOriginJoint: ''
-AttackRange: 1.8
+AttackRange: 2.6
 AttackHeight: 1
 AttackOffset: 0
 SpawnOnTrigger: ''
@@ -42,7 +42,7 @@ AttackRayWidth: 0.5
 MaxYAngle: 0
 LowerDamagePerHit: true
 HitThroughWalls: false
-AttackRangeMinimum: 1
+AttackRangeMinimum: 2.2
 AttackInterval: 8
 AttackMaxAngle: 5
 Projectile: ''

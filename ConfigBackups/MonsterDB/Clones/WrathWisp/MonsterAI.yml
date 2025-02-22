@@ -46,7 +46,7 @@ FleeTimeSinceHurt: 0
 FleeInLava: true
 CirculateWhileCharging: true
 CirculateWhileChargingFlying: true
-EnableHuntPlayer: false
+EnableHuntPlayer: true
 AttackPlayerObjects: false
 PrivateAreaTriggerThreshold: 4
 InterceptTimeMax: 0

@@ -10,7 +10,7 @@ Pickaxe: 0
 Fire: 0
 Frost: 0
 Lightning: 0
-Poison: 10
+Poison: 6
 Spirit: 0
 AttackForce: 0
 Dodgeable: true
@@ -43,7 +43,7 @@ MaxYAngle: 0
 LowerDamagePerHit: true
 HitThroughWalls: false
 AttackRangeMinimum: 0
-AttackInterval: 2
+AttackInterval: 8
 AttackMaxAngle: 5
 Projectile: ''
 MaterialOverride: ''

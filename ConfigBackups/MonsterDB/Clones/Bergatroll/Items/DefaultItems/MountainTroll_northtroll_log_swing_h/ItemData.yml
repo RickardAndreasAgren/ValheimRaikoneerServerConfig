@@ -31,7 +31,7 @@ StaggerMultiplier: 1
 RecoilPushback: 0
 SelfDamage: 0
 AttackOriginJoint: ''
-AttackRange: 10
+AttackRange: 6
 AttackHeight: 3
 AttackOffset: 0
 SpawnOnTrigger: ''
