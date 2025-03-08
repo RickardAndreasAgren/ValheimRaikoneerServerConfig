@@ -1,0 +1,17 @@
+ShaderType: Custom/Creature
+Name: M_SK_Clothes_03_Dark
+_Color:
+  r: 1
+  g: 1
+  b: 1
+  a: 1
+_MainTex: T_SkMage_Clothes03_BaseColor_Dark
+_EmissionColor:
+  r: 0
+  g: 0
+  b: 0
+  a: 1
+Transparent: false
+_Hue: 0
+_Value: 0
+_Saturation: 0

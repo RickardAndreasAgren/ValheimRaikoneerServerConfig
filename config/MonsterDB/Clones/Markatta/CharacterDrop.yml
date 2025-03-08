@@ -1,0 +1,14 @@
+- PrefabName: ProwlerFang_TW
+  AmountMin: 1
+  AmountMax: 2
+  Chance: 0.9
+  OnePerPlayer: false
+  LevelMultiplier: true
+  DoNotScale: false
+- PrefabName: TrophyMarkatta
+  AmountMin: 1
+  AmountMax: 1
+  Chance: 0.1
+  OnePerPlayer: false
+  LevelMultiplier: false
+  DoNotScale: false

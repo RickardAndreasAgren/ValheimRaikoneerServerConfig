@@ -1,0 +1,17 @@
+name: REitrSledgeBonemass
+clonePrefabName: EitrSledgeBonemass
+craftingStation: $piece_blackforge
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Ooze:60:15:False
+- BlackMetal:20:10:True
+- Crystal:5:5:True
+- Eitr:12:4:False
+- SledgeBonemass_TW:1:0:False

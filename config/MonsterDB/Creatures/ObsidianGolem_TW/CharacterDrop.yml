@@ -1,0 +1,14 @@
+- PrefabName: Obsidian
+  AmountMin: 4
+  AmountMax: 10
+  Chance: 1
+  OnePerPlayer: false
+  LevelMultiplier: true
+  DoNotScale: false
+- PrefabName: TrophyObsidianGolem_TW
+  AmountMin: 1
+  AmountMax: 1
+  Chance: 0.25
+  OnePerPlayer: false
+  LevelMultiplier: false
+  DoNotScale: false

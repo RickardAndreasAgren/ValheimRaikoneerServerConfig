@@ -1,0 +1,17 @@
+name: REitrGreatswordYagluth
+clonePrefabName: EitrGreatswordYagluth
+craftingStation: $piece_blackforge
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Coal:40:10:False
+- SurtlingCore:5:3:True
+- BlackMetal:10:5:True
+- Eitr:12:4:False
+- VAYagluth_greatsword:1:0:False

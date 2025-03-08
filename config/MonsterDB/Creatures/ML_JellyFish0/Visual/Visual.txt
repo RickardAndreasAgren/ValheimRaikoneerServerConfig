@@ -1,0 +1,15 @@
+Visual
+	Bone002
+		Bone003
+			Bone004
+				Bone005
+					Bone006
+						Bone007
+							Bone008
+								Bone009
+								AOE
+							AOE
+						AOE
+					AOE
+	v_body
+	Sparcs

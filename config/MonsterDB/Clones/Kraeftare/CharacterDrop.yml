@@ -1,0 +1,14 @@
+- PrefabName: TrophyKraeftare
+  AmountMin: 1
+  AmountMax: 1
+  Chance: 0.1
+  OnePerPlayer: false
+  LevelMultiplier: false
+  DoNotScale: false
+- PrefabName: Chitin
+  AmountMin: 2
+  AmountMax: 3
+  Chance: 1
+  OnePerPlayer: false
+  LevelMultiplier: true
+  DoNotScale: false
