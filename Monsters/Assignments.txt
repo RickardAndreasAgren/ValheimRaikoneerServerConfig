@@ -2,7 +2,6 @@ Name/HP/DMG/RES(1-4)
 
 
 Fox_TW	30 10-15 1 Meadows
-TreeSpider_Spawn 20 5 1 Meadows
 GreenSpider 25 20 1 Meadows
 
 BlackBear_TW 120 22-32 1 BlackForest
