@@ -1,11 +1,11 @@
-ShaderType: Standard
-Name: CatfishA_Mat
+ShaderType: Snow Coverage Standard
+Name: Jeddyavul_0
 _Color:
   r: 0
   g: 0
   b: 0
   a: 0
-_MainTex: ''
+_MainTex: Lizard_Albedo
 _EmissionColor:
   r: 0
   g: 0

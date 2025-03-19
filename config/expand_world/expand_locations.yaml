@@ -1541,7 +1541,7 @@
   maxTerrainDelta: 4
   exteriorRadius: 32
   clearArea: true
-  noBuild: 8.75
+  noBuild: true
 - prefab: FaderLocation
   enabled: true
   biome: AshLands

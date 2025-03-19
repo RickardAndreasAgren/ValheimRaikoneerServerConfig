@@ -116,6 +116,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 32
   clearArea: true
+  noBuild: false
 - prefab: Balder_Altar
   enabled: false
   biome: Ocean
@@ -133,3 +134,4 @@
   forestTresholdMax: 2.19
   exteriorRadius: 100
   clearArea: true
+  noBuild: false

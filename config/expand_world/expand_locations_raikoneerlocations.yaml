@@ -16,6 +16,7 @@
   exteriorRadius: 14
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_foresthold_deserted
   enabled: true
   biome: BlackForest
@@ -33,6 +34,7 @@
   exteriorRadius: 14
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_foresthold_remnant
   enabled: true
   biome: Meadows
@@ -49,6 +51,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 14
   randomDamage: true
+  noBuild: false
 - prefab: arl_foresthold_ruins
   enabled: true
   biome: Mountain
@@ -65,6 +68,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 14
   randomDamage: true
+  noBuild: false
 - prefab: arl_instairtower
   enabled: true
   biome: Plains
@@ -83,6 +87,7 @@
   exteriorRadius: 9
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_instairtower_damaged
   enabled: true
   biome: Plains
@@ -100,6 +105,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 9
   randomDamage: true
+  noBuild: false
 - prefab: arl_instairtower_rebuilt
   enabled: true
   biome: Plains
@@ -117,6 +123,7 @@
   exteriorRadius: 9
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_instairtower_remnant
   enabled: true
   biome: Meadows
@@ -133,6 +140,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 10
   randomDamage: true
+  noBuild: false
 - prefab: arl_instairtower_reruin
   enabled: true
   biome: Plains
@@ -149,6 +157,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 9
   randomDamage: true
+  noBuild: false
 - prefab: arl_instairtower_ruin
   enabled: true
   biome: BlackForest
@@ -164,6 +173,7 @@
   inForest: true
   exteriorRadius: 10
   randomDamage: true
+  noBuild: false
 - prefab: arl_jarlsmanshouse
   enabled: true
   biome: Meadows
@@ -182,6 +192,7 @@
   exteriorRadius: 12
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_jarlsmanshouse_remnant
   enabled: true
   biome: BlackForest
@@ -199,6 +210,7 @@
   forestTresholdMax: 5
   exteriorRadius: 12
   randomDamage: true
+  noBuild: false
 - prefab: arl_jarlsmanshouse_ruin
   enabled: true
   biome: Meadows
@@ -217,6 +229,7 @@
   exteriorRadius: 12
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_outpostcabin
   enabled: true
   biome: Mountain
@@ -234,6 +247,7 @@
   exteriorRadius: 8
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_outpostcabin_ruin
   enabled: true
   biome: Mountain
@@ -251,6 +265,7 @@
   forestTresholdMax: 5
   exteriorRadius: 8
   randomDamage: true
+  noBuild: false
 - prefab: arl_outposttower
   enabled: true
   biome: BlackForest
@@ -268,6 +283,7 @@
   exteriorRadius: 10
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_outposttower_burnt
   enabled: true
   biome: Plains
@@ -284,6 +300,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 10
   randomDamage: true
+  noBuild: false
 - prefab: arl_outposttower_ruin
   enabled: true
   biome: Plains
@@ -301,6 +318,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 10
   randomDamage: true
+  noBuild: false
 - prefab: arl_outposttower_remnant
   enabled: true
   biome: Plains
@@ -317,6 +335,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 10
   randomDamage: true
+  noBuild: false
 - prefab: arl_pillartower
   enabled: true
   biome: Plains
@@ -335,6 +354,7 @@
   exteriorRadius: 11
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_pillartower_remnant
   enabled: true
   biome: Plains
@@ -351,6 +371,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 11
   randomDamage: true
+  noBuild: false
 - prefab: arl_pillartower_ruin
   enabled: true
   biome: Swamp
@@ -367,6 +388,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 11
   randomDamage: true
+  noBuild: false
 - prefab: arl_smallonghouse
   enabled: true
   biome: Meadows
@@ -384,6 +406,7 @@
   exteriorRadius: 10
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_swamptower
   enabled: true
   biome: Swamp
@@ -400,6 +423,7 @@
   exteriorRadius: 9
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_swamptower_remnant
   enabled: true
   biome: Swamp
@@ -415,6 +439,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 9
   randomDamage: true
+  noBuild: false
 - prefab: arl_swamptower_ruin
   enabled: true
   biome: Swamp
@@ -430,6 +455,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 9
   randomDamage: true
+  noBuild: false
 - prefab: arl_traphouseplain
   enabled: true
   biome: Plains
@@ -446,6 +472,7 @@
   exteriorRadius: 17
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_traphouseplain_remnant
   enabled: true
   biome: Meadows
@@ -462,6 +489,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 16
   randomDamage: true
+  noBuild: false
 - prefab: arl_traphouseplain_ruin
   enabled: true
   biome: Plains
@@ -477,6 +505,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 16
   randomDamage: true
+  noBuild: false
 - prefab: arl_twotwohouse
   enabled: true
   biome: Mountain
@@ -494,6 +523,7 @@
   exteriorRadius: 12
   clearArea: true
   randomDamage: true
+  noBuild: false
 - prefab: arl_twotwohouse_remnant
   enabled: true
   biome: Meadows
@@ -510,6 +540,7 @@
   forestTresholdMax: 3
   exteriorRadius: 12
   randomDamage: true
+  noBuild: false
 - prefab: arl_twotwohouse_ruin
   enabled: true
   biome: Meadows
@@ -526,6 +557,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 12
   randomDamage: true
+  noBuild: false
 - prefab: arl_twotwohouse_stormed
   enabled: true
   biome: Mountain
@@ -544,3 +576,4 @@
   exteriorRadius: 12
   clearArea: true
   randomDamage: true
+  noBuild: false

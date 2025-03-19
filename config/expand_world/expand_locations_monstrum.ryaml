@@ -14,6 +14,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 8
   clearArea: true
+  noBuild: false
 - prefab: Vegvisir_location_Asmodeus_TW
   enabled: false
   biome: Meadows
@@ -62,6 +63,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 3
   clearArea: true
+  noBuild: false
 - prefab: AltarVrykolathas_TW
   enabled: false
   biome: Swamp
@@ -78,6 +80,7 @@
   forestTresholdMax: 2.19
   exteriorRadius: 12
   clearArea: true
+  noBuild: false
 - prefab: Vegvisir_location_Vrykolathas_TW
   enabled: false
   biome: Swamp
@@ -94,3 +97,4 @@
   forestTresholdMax: 2.19
   exteriorRadius: 2
   clearArea: true
+  noBuild: false
