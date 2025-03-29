@@ -1,7 +1,0 @@
-- PrefabName: Coins
-  AmountMin: 3
-  AmountMax: 5
-  Chance: 1
-  OnePerPlayer: false
-  LevelMultiplier: true
-  DoNotScale: false

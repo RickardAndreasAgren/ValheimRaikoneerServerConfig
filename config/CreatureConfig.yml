@@ -310,42 +310,42 @@
 #
 
 #BlackForestCamp
-# Skeleton_HildirCamp
-# GreydwarfCamp
+# Ignited Guard
+# Greydwarf Lurker
 # Greydwarf_EliteCamp
-# Greydwarf_ShamanCamp
-# Skeleton_PoisonCamp
-# SkeletonCamp
-# GhostCamp
+# Greydwarf Flower Steward
+# Rancid Guard
+# Skeleton Guard
+# Restless
 
 #SwampCamp
-# BlobCamp
-# DraugrCamp
-# Draugr_EliteCamp
-# Draugr_RangedCamp
-# SurtlingCamp
+# Bubbelblob
+# Draugr Watcher
+# Draugr Warrior
+# Draugr Archer
+# Lursurtling
 
 #MountainsCamp
-# Fenring_CultistCamp
-# Fenring_Cultist_HildirCamp
-# UlvCamp
+# Cultist Scion
+# Zealot
+# Ulfv
 
 #PlainsCamp
-# GoblinCamp
-# GoblinArcherCamp
-# GoblinBruteCamp
-# GoblinShamanCamp
+# Fuling Camper
+# Fuling Thrower
+# Fuling Brute
+# Fuling Witch
 
 #MistlandsCamp
-# DvergerCamp
-# DvergerMageCamp
-# SeekerCamp
-# SeekerBruteCamp
+# Dvergr Ranger
+# Dvergr Magus
+# Seeker Guard
+# Seeker Vanguard
 
 #AshlandsCamp
-# Charred_ArcherCamp
-# Charred_MageCamp
-# Charred_TwitcherCamp
+# Charred Sharpshooter
+# Charred Darkling
+# Charred Rager
 # MorgenCamp
 
 
@@ -358,7 +358,7 @@
 # Slem
 # GreenSpider
 # 3
-# NightfrostSkeleton
+# Nightfrost Skeleton
 # VandrarGreyling
 # 4
 # Fox_TW  <Medium>
@@ -368,20 +368,20 @@
 # 1
 # ML_BlueMistile_Passive
 # 2
-# FrostsilkCreeper
+# Frostsilk Creeper
 # Greydwarf_Purple
 # Greydwarf_Purple_Shroom
-# NormalSkeletonWarrior
-# NormalGhostWarrior
+# Skeleton Soldier
+# Restless Avenger
 # 3
 # Razorback_TW
-# ChaosSkeletonWarrior
-# OozingSkeleton
+# Deathmark Soldier
+# Oozing Skeleton
 # Jaegerjedd
 # Hednarjedd
 # Markatta
 # 4
-# Gnagarbjerv
+# Rodent Bjarv
 # 5
 # MolluscanLand <Medium>
 # BlackBear_TW
@@ -389,18 +389,18 @@
 #Swamp
 # 1
 # ML_RedMistile_Passive
-# SludgeBoar
+# Sludge Boar
 # 2
-# BrownSpider
-# ForestSpider
+# Dirt Creeper
+# Swamp Stalker
 # RottingElk_TW
 # WrathWisp
 # 3
-# Jeddyavul
-# PoisonSkeletonWarrior
-# PoisonSkeletonWarriorNoFx
-# ChaosSkeletonWarriorNoFX
-# WraithWarrior
+# Jedd Devil
+# Blights Forgotten
+# Blights Abandoned
+# Deathmark Auxiliary
+# Deathmark Hunter
 # 4
 # Crawler_TW
 # HelWraith_TW
@@ -410,13 +410,13 @@
 # 1
 # ML_BlueMistile_Passive
 # 2
-# FrigidSpider
-# FrostSpider
-# IceSkeletonWarrior
-# IceSkeletonWarriorNoFx
+# Frigid Stalker
+# Frostcrawler
+# Winters Forgotten
+# Winters Abandoned
 # 3
-# SnowthreadCreeper
-# HemnarWraith
+# Snowthread Creeper
+# Hemnar Wraith
 # 4
 # GrizzlyBear_TW
 # 5
@@ -437,7 +437,7 @@
 # 4
 # Grymsvin
 # 5
-# GrassweaveArachne
+# Grassweave Orb
 
 #Ashlands
 # 1
@@ -459,34 +459,35 @@ groups:
     - Troll
     - Drake
     - Fuling Berserker
-    - Fularing Brute
+    - Fuling Brute
     - Stone Golem
     - Abomination
     - Bergatroll
     - Obsidian Golem
     - Grymsvin
     - Grassweave Orb
+    - Deathsquito
   BlackForestCamp:
     - Ignited Guard
-    - Mossdwarf
-    - Mossdwarf Brute
-    - Mossdwarf Shaman
+    - Greydwarf Lurker
+    - Greydwarf Mosskeeper
+    - Greydwarf Flower Steward
     - Rancid Guard
     - Skeleton Guard
-    - GhostCamp
+    - Restless
   SwampCamp:
     - Bubbelblob
-    - Depths Draugr
-    - Depths Draugr Elite
-    - Sörtling
+    - Draugr Watcher
+    - Draugr Warrior
+    - Lursurtling
   MountainsCamp:
     - Cultist Scion
     - Zealot
     - Ulfv
   PlainsCamp:
-    - Fularing
-    - Fularing Brute
-    - Fularing Shaman
+    - Fuling Camper
+    - Fuling Brute
+    - Fuling Witch
   MistlandsCamp:
     - Dvergr Ranger
     - Dvergr Magus
@@ -497,7 +498,143 @@ groups:
     - Charred Darkling
     - Charred Rager
     - Lurmorgen
-
+  Sectorone:
+    - Boar
+    - Neck
+    - Greyling
+    - Greydwarf
+    - Greydwarf Lurker
+    - Ghost
+    - Restless
+    - Restless Avenger
+    - Skeleton
+    - Skeleton_NoArcher
+    - Skeleton_Hildir
+    - Skeleton Guard
+    - Ignited Guard
+    - Blob
+    - Bubbelblob
+    - Draugr
+    - Draugr Watcher
+    - Draugr_Ranged
+    - Draugr Archer
+    - Leech
+    - Surtling
+    - Lursurtling
+    - Bat
+    - Deathsquito
+    - Fingerfuling
+    - Sludge Boar
+    - DwarfGoblinLoot
+  Sectortwo:
+    - Greydwarf Brute
+    - Greydwarf Shaman
+    - Greydwarf Flower Steward
+    - Draugr Elite
+    - Draugr Warrior
+    - Wolf
+    - Drake
+    - Fuling
+    - Fuling Camper
+    - GoblinArcher
+    - Fuling Thrower
+    - Growth
+    - Ulv
+    - Ulfv
+    - Kraeftare
+    - Lillfuling
+    - Slem
+    - GreenSpider
+    - Frostsilk Creeper
+    - Greydwarf_Purple
+    - Greydwarf Shroomguard
+    - Skeleton Soldier
+    - Frigid Stalker
+    - Frostcrawler
+    - Winters Forgotten
+    - Winters Abandoned
+    - TanSpider
+    - DwarfGoblin
+    - FireSkeletonWarrior
+    - FireSkeletonWarriorNoFx
+  Sectorthree:
+    - Oozer
+    - Rancid Remains
+    - Rancid Guard
+    - Dirt Creeper
+    - Swamp Stalker
+    - Wraith
+    - Fenring
+    - Cultist
+    - Fuling shaman
+    - Fuling Witch
+    - Greydwarf Mosskeeper
+    - Cultist Scion
+    - Zealot
+    - ML_AshHuldra
+    - Molluscan
+    - Prowler_TW
+    - DwarfGoblinShaman
+    - Snowthread Creeper
+    - Hemnar Wraith
+    - Jedd Devil
+    - Blights Forgotten
+    - Blights Abandoned
+    - Deathmark Auxiliary
+    - Deathmark Hunter
+    - Razorback_TW
+    - Deathmark Soldier
+    - Oozing Skeleton
+    - Jaegerjedd
+    - Hednarjedd
+    - Markatta
+    - Nightfrost Skeleton
+    - VandrarGreyling
+  Sectorfour:
+    - Troll
+    - Abomination
+    - Fuling Berserker
+    - Fuling Brute
+    - Fox_TW
+    - Rodent Bjarv
+    - Crawler_TW
+    - HelWraith_TW
+    - GrizzlyBear_TW
+    - Grymsvin
+  Sectorfive:
+    - Serpent
+    - Stone Golem
+    - Grassweave Orb
+    - ObsidianGolem_TW
+    - Bergatroll
+    - MolluscanLand
+    - BlackBear_TW
+  Sectorten:
+    - Gull
+  SectoroneMistlands:
+    - Tick
+    - Seeker Brood
+  SectortwoMistlands:
+    - Dvergr Rogue
+    - Dvergr Ranger
+    - Seeker
+    - Seeker Guard
+    - Charred_Archer
+    - Charred Sharpshooter
+    - Charred_Twitcher
+    - Charred Rager
+  SectorthreeMistlands:
+    - Dvergr Mage
+    - Dvergr Magus
+    - Charred_Mage
+    - Charred Darkling
+  SectorfourMistlands:
+    - Seeker Soldier
+    - Seeker Vanguard
+    - Morgen
+    - Lurmorgen
+  SectorfiveMistlands:
+    - Gjall   
 
 Skeleton_NoArcher:
   Meadows:
@@ -536,74 +673,85 @@ Strong Enemies:
     Splitting: 0
   Meadows:
     stars:
-        0: [10, 4, 1, 0, 0]
-        1: [12, 5, 4, 0, 0]
-        2: [12, 5, 4, 0, 0]
-        3: [12, 5, 4, 0, 0]
-        4: [12, 5, 4, 0, 0]
-        5: [12, 5, 4, 0, 0]
-        6: [12, 5, 4, 0, 0]
-        7: [12, 5, 4, 0, 0]
+        0: [15, 6, 3, 0, 0]
+        1: [15, 6, 3, 0, 0]
+        2: [15, 6, 3, 0, 0]
+        3: [15, 6, 3, 0, 0]
+        4: [15, 6, 3, 0, 0]
+        5: [15, 6, 3, 0, 0]
+        6: [15, 6, 3, 0, 0]
+        7: [15, 6, 3, 0, 0]
   Black Forest:
     stars:
-        0: [10, 4, 1, 0, 0]
-        1: [10, 4, 1, 0, 0]
-        2: [12, 5, 4, 1, 0]
-        3: [12, 8, 5, 1, 0]
-        4: [12, 8, 5, 1, 1]
-        5: [12, 8, 5, 1, 1]
-        6: [12, 8, 5, 1, 1]
-        7: [12, 8, 5, 1, 1]
+        0: [15, 6, 3, 0, 0]
+        1: [15, 6, 3, 0, 0]
+        2: [15, 7, 4, 1, 0]
+        3: [18, 8, 5, 1, 0]
+        4: [18, 9, 5, 1, 1]
+        5: [20, 10, 6, 2, 1]
+        6: [20, 10, 6, 2, 1]
+        7: [20, 10, 6, 2, 1]
   Swamp:
     stars:
-        0: [10, 4, 1, 0, 0]
-        1: [10, 4, 1, 0, 0]
-        2: [10, 4, 1, 0, 0]
-        3: [12, 8, 5, 1, 0]
-        4: [15, 10, 6, 1, 0]
-        5: [15, 10, 6, 1, 1]
-        6: [15, 10, 6, 1, 1]
-        7: [15, 10, 6, 1, 1]
+        0: [15, 6, 3, 0, 0]
+        1: [15, 6, 3, 0, 0]
+        2: [15, 6, 3, 0, 0]
+        3: [15, 7, 4, 1, 0]
+        4: [18, 8, 5, 1, 0]
+        5: [18, 9, 5, 1, 1]
+        6: [20, 10, 6, 2, 1]
+        7: [20, 10, 6, 2, 1]
   Mountain:
     stars:
-        0: [10, 4, 1, 0, 0]
-        1: [10, 4, 1, 0, 0]
-        2: [10, 4, 1, 0, 0]
-        3: [10, 4, 1, 0, 0]
-        4: [12, 8, 5, 1, 0]
-        5: [15, 10, 6, 1, 0]
-        6: [15, 10, 8, 1, 1]
-        7: [15, 10, 8, 2, 1]
+        0: [15, 6, 3, 0, 0]
+        1: [15, 6, 3, 0, 0]
+        2: [15, 6, 3, 0, 0]
+        3: [15, 6, 3, 0, 0]
+        4: [15, 7, 4, 1, 0]
+        5: [18, 8, 5, 1, 0]
+        6: [18, 9, 5, 1, 1]
+        7: [20, 10, 6, 2, 1]
   Plains:
     stars:
-        0: [10, 4, 1, 0, 0]
-        1: [10, 4, 1, 0, 0]
-        2: [10, 4, 1, 0, 0]
-        3: [10, 4, 1, 0, 0]
-        4: [12, 8, 5, 1, 0]
-        5: [15, 10, 6, 1, 0]
-        6: [15, 10, 8, 1, 1]
-        7: [15, 10, 8, 2, 1]
+        0: [15, 6, 3, 0, 0]
+        1: [15, 6, 3, 0, 0]
+        2: [15, 6, 3, 0, 0]
+        3: [15, 6, 3, 0, 0]
+        4: [15, 6, 3, 0, 0]
+        5: [15, 7, 4, 1, 0]
+        6: [18, 8, 5, 1, 0]
+        7: [18, 9, 5, 1, 1]
   Mistlands:
     stars:
-        0: [10, 4, 1, 0, 0]
-        1: [10, 4, 1, 0, 0]
-        2: [10, 4, 1, 0, 0]
-        3: [10, 4, 1, 0, 0]
-        4: [12, 8, 5, 1, 0]
-        5: [15, 10, 6, 1, 0]
-        6: [15, 10, 8, 1, 1]
-        7: [15, 10, 8, 2, 1]
+        0: [15, 6, 3, 0, 0]
+        1: [15, 6, 3, 0, 0]
+        2: [15, 6, 3, 0, 0]
+        3: [15, 6, 3, 0, 0]
+        4: [15, 6, 3, 0, 0]
+        5: [15, 6, 3, 0, 0]
+        6: [15, 7, 4, 1, 0]
+        7: [18, 8, 5, 1, 0]
   Ashlands:
     stars:
-        0: [10, 4, 1, 0, 0]
-        1: [10, 4, 1, 0, 0]
-        2: [10, 4, 1, 0, 0]
-        3: [10, 4, 1, 0, 0]
-        4: [12, 8, 5, 1, 0]
+        0: [15, 6, 3, 0, 0]
+        1: [15, 6, 3, 0, 0]
+        2: [15, 6, 3, 0, 0]
+        3: [15, 6, 3, 0, 0]
+        4: [15, 6, 3, 0, 0]
         5: [15, 10, 6, 1, 0]
-        6: [15, 10, 8, 1, 1]
-        7: [15, 10, 8, 2, 1]
+        6: [15, 7, 4, 1, 0]
+        7: [18, 8, 5, 1, 0]
+  DeepNorth:
+    stars:
+        0: [15, 6, 3, 0, 0]
+        1: [15, 6, 3, 0, 0]
+        2: [15, 6, 3, 0, 0]
+        3: [15, 6, 3, 0, 0]
+        4: [15, 6, 3, 0, 0]
+        5: [15, 10, 6, 1, 0]
+        6: [15, 7, 4, 1, 0]
+        7: [18, 8, 5, 1, 0]
+
   loot per star: 0.34
 
 Drake:
@@ -612,6 +760,7 @@ Drake:
     Frost: 50
     other: 0
   size: 0.12
+  damage per star: 0.05
   movement speed per star: 0.07
 
 Wolf:
@@ -657,8 +806,8 @@ Boar:
 Neck:
   Meadows:
     Day:
-      size: 0.4
-      damage per star: 1.75
+      size: 0.3
+      damage per star: 1.5
       movement speed per star: 0.175
       attack speed per star: 0.1
       health per star: 1
@@ -679,81 +828,77 @@ Greydwarf:
 
 BlackForestCamp:
   stars:
-    0: [20, 12, 8, 4, 1]
-    1: [67, 20, 8, 4, 1]
-    2: [50, 37, 8, 4, 1]
-    3: [47, 37, 10, 5, 1]
-    4: [45, 37, 12, 5, 1]
-    5: [44, 37, 12, 6, 1]
-    6: [44, 37, 12, 6, 1]
-    7: [44, 37, 12, 6, 1]
+    0: [30, 20, 10, 0, 0]
+    1: [30, 20, 10, 0, 0]
+    2: [35, 25, 12, 5, 1]
+    3: [40, 25, 15, 5, 1]
+    4: [43, 25, 20, 10, 2]
+    5: [43, 25, 20, 10, 2]
+    6: [43, 25, 20, 10, 2]
+    7: [43, 25, 20, 10, 2]
     
 
 SwampCamp:
   stars:
-    0: [20, 12, 8, 4, 1]
-    1: [20, 12, 8, 4, 1]
-    2: [67, 20, 8, 4, 1]
-    2: [47, 40, 8, 4, 1]
-    3: [34, 50, 10, 5, 1]
-    4: [32, 50, 12, 5, 1]
-    5: [31, 50, 12, 6, 1]
-    6: [31, 50, 12, 6, 1]
-    7: [31, 50, 12, 6, 1]
-    
+    0: [30, 20, 10, 0, 0]
+    1: [30, 20, 10, 0, 0]
+    2: [35, 25, 12, 5, 1]
+    3: [40, 25, 15, 5, 1]
+    4: [43, 25, 20, 10, 2]
+    5: [37, 25, 24, 12, 2]
+    6: [37, 25, 24, 12, 2]
+    7: [37, 25, 24, 12, 2]
 
 MountainCamp:
   stars:
-    0: [20, 12, 8, 4, 1]
-    1: [20, 12, 8, 4, 1]
-    2: [20, 12, 8, 4, 1]
-    3: [67, 20, 8, 4, 1]
-    4: [47, 40, 8, 4, 1]
-    5: [34, 50, 10, 5, 1]
-    6: [32, 50, 12, 5, 1]
-    7: [31, 50, 12, 6, 1]
-    
+    0: [30, 20, 10, 0, 0]
+    1: [30, 20, 10, 0, 0]
+    2: [30, 20, 10, 0, 0]
+    3: [35, 25, 12, 5, 1]
+    4: [40, 25, 15, 5, 1]
+    5: [43, 25, 20, 10, 2]
+    6: [37, 25, 24, 12, 2]
+    7: [30, 24, 30, 14, 2]
 
 PlainsCamp:
   stars:
-    0: [20, 12, 8, 4, 1]
-    1: [20, 12, 8, 4, 1]
-    2: [20, 12, 8, 4, 1]
-    3: [20, 12, 8, 4, 1]
-    4: [67, 20, 8, 4, 1]
-    5: [47, 40, 8, 4, 1]
-    6: [34, 50, 10, 5, 1]
-    7: [32, 50, 12, 5, 1]
-    
+    0: [30, 20, 10, 0, 0]
+    1: [30, 20, 10, 0, 0]
+    2: [30, 20, 10, 0, 0]
+    3: [30, 20, 10, 0, 0]
+    4: [35, 25, 12, 5, 1]
+    5: [40, 25, 15, 5, 1]
+    6: [43, 25, 20, 10, 2]
+    7: [37, 25, 24, 12, 2]
 
 MistlandsCamp:
   stars:
-    0: [20, 12, 8, 4, 1]
-    1: [20, 12, 8, 4, 1]
-    2: [20, 12, 8, 4, 1]
-    3: [20, 12, 8, 4, 1]
-    4: [20, 12, 8, 4, 1]
-    5: [67, 20, 8, 4, 1]
-    6: [47, 40, 8, 4, 1]
-    7: [34, 50, 10, 5, 1]
+    0: [30, 20, 10, 0, 0]
+    1: [30, 20, 10, 0, 0]
+    2: [30, 20, 10, 0, 0]
+    3: [30, 20, 10, 0, 0]
+    4: [30, 20, 10, 0, 0]
+    5: [35, 25, 12, 5, 1]
+    6: [40, 25, 15, 5, 1]
+    7: [43, 25, 20, 10, 2]
 
 AshlandsCamp:
   stars:
-    0: [20, 12, 8, 4, 1]
-    1: [20, 12, 8, 4, 1]
-    2: [20, 12, 8, 4, 1]
-    3: [20, 12, 8, 4, 1]
-    4: [20, 12, 8, 4, 1]
-    5: [20, 12, 8, 4, 1]
-    6: [67, 20, 8, 4, 1]
-    7: [47, 40, 8, 4, 1]
+    0: [30, 20, 10, 0, 0]
+    1: [30, 20, 10, 0, 0]
+    2: [30, 20, 10, 0, 0]
+    3: [30, 20, 10, 0, 0]
+    4: [30, 20, 10, 0, 0]
+    5: [30, 20, 10, 0, 0]
+    6: [35, 25, 12, 5, 1]
+    7: [40, 25, 15, 5, 1]
     
 Meadows:
   stars:
-    0: [15, 10, 5, 2, 1]
-    1: [15, 10, 5, 3, 1]
-    2: [20, 12, 8, 4, 1]
-    3: [25, 15, 10, 5, 1]
+    0: [20, 6, 3, 2, 1]
+    1: [20, 6, 3, 2, 1]
+    2: [20, 12, 8, 3, 1]
+    3: [25, 15, 10, 4, 1]
     4: [25, 15, 10, 5, 1]
     5: [25, 15, 10, 5, 1]
     6: [25, 15, 10, 5, 1]
@@ -762,8 +907,8 @@ Meadows:
 
 Black Forest:
   stars:
-    0: [15, 10, 5, 1, 1]
-    1: [15, 10, 5, 2, 1]
+    0: [20, 6, 3, 2, 1]
+    1: [20, 6, 3, 2, 1]
     2: [20, 12, 8, 4, 1]
     3: [25, 15, 10, 5, 1]
     4: [30, 20, 12, 5, 1]
@@ -774,9 +919,9 @@ Black Forest:
 
 Swamp:
   stars:
-    0: [15, 10, 5, 1, 1]
-    1: [15, 10, 5, 1, 1]
-    2: [15, 10, 5, 2, 1]
+    0: [20, 6, 3, 2, 1]
+    1: [20, 6, 3, 2, 1]
+    2: [20, 6, 3, 2, 1]
     3: [20, 12, 8, 4, 1]
     4: [25, 15, 10, 5, 1]
     5: [30, 20, 12, 5, 1]
@@ -786,10 +931,10 @@ Swamp:
 
 Mountain:
   stars:
-    0: [15, 10, 5, 1, 1]
-    1: [15, 10, 5, 1, 1]
-    2: [15, 10, 5, 1, 1]
-    3: [15, 10, 5, 2, 1]
+    0: [20, 6, 3, 2, 1]
+    1: [20, 6, 3, 2, 1]
+    2: [20, 6, 3, 2, 1]
+    3: [20, 6, 3, 2, 1]
     4: [20, 12, 8, 4, 1]
     5: [25, 15, 10, 5, 1]
     6: [30, 20, 12, 6, 1]
@@ -798,11 +943,11 @@ Mountain:
 
 Plains:
   stars:
-    0: [15, 10, 5, 1, 1]
-    1: [15, 10, 5, 1, 1]
-    2: [15, 10, 5, 1, 1]
-    3: [15, 10, 5, 1, 1]
-    4: [15, 10, 5, 2, 1]
+    0: [20, 6, 3, 2, 1]
+    1: [20, 6, 3, 2, 1]
+    2: [20, 6, 3, 2, 1]
+    3: [20, 6, 3, 2, 1]
+    4: [20, 6, 3, 2, 1]
     5: [20, 12, 8, 4, 1]
     6: [25, 15, 10, 5, 1]
     7: [30, 20, 12, 6, 1]
@@ -810,25 +955,25 @@ Plains:
 
 Mistlands:
   stars:
-    0: [15, 10, 5, 1, 1]
-    1: [15, 10, 5, 1, 1]
-    2: [15, 10, 5, 1, 1]
-    3: [15, 10, 5, 1, 1]
-    4: [15, 10, 5, 1, 1]
-    5: [15, 10, 5, 2, 1]
+    0: [20, 6, 3, 2, 1]
+    1: [20, 6, 3, 2, 1]
+    2: [20, 6, 3, 2, 1]
+    3: [20, 6, 3, 2, 1]
+    4: [20, 6, 3, 2, 1]
+    5: [20, 6, 3, 2, 1]
     6: [20, 12, 8, 4, 1]
     7: [25, 15, 10, 5, 1] 
 
 
 Ashlands:
   stars:
-    0: [15, 10, 5, 1, 1]
-    1: [15, 10, 5, 1, 1]
-    2: [15, 10, 5, 1, 1]
-    3: [15, 10, 5, 1, 1]
-    4: [15, 10, 5, 1, 1]
-    5: [15, 10, 5, 1, 1]
-    6: [15, 10, 5, 2, 1]
+    0: [20, 6, 3, 2, 1]
+    1: [20, 6, 3, 2, 1]
+    2: [20, 6, 3, 2, 1]
+    3: [20, 6, 3, 2, 1]
+    4: [20, 6, 3, 2, 1]
+    5: [20, 6, 3, 2, 1]
+    6: [20, 6, 3, 2, 1]
     7: [20, 12, 8, 4, 1]
     
 
@@ -840,7 +985,7 @@ DeepNorth:
     3: [4, 1]
     4: [5, 2]
     5: [10, 4, 2, 0.5]
-    6: [20, 12, 4, 2, 0.5]
+    6: [20, 6, 3, 2, 1]
     7: [25, 16, 6, 3, 1]
     
 
@@ -869,144 +1014,6 @@ Gjall:
       6: [4, 2, 1, 1]
       7: [5, 3, 2, 1, 0.5]
     health per star: 0.25
-    
-
-groups:
-  Sectorone:
-    - Boar
-    - Neck
-    - Greyling
-    - Greydwarf
-    - GreydwarfCamp
-    - Ghost
-    - GhostCamp
-    - Skeleton
-    - Skeleton_NoArcher
-    - Skeleton_Hildir
-    - SkeletonCamp
-    - Skeleton_HildirCamp
-    - Blob
-    - BlobCamp
-    - Draugr
-    - DraugrCamp
-    - Draugr_Ranged
-    - Draugr_RangedCamp
-    - Leech
-    - Surtling
-    - SurtlingCamp
-    - Bat
-    - Deathsquito
-    - Fingerfuling
-    - SludgeBoar
-    - DwarfGoblinLoot
-  Sectortwo:
-    - Greydwarf Brute
-    - Greydwarf Shaman
-    - Greydwarf_BruteCamp
-    - Greydwarf_ShamanCamp
-    - Draugr Elite
-    - Draugr_EliteCamp
-    - Wolf
-    - Drake
-    - Fuling
-    - GoblinCamp
-    - GoblinArcher
-    - GoblinArcherCamp
-    - Growth
-    - Ulv
-    - UlvCamp
-    - Kraeftare
-    - Lillfuling
-    - Slem
-    - GreenSpider
-    - FrostsilkCreeper
-    - Greydwarf_Purple
-    - Greydwarf_Purple_Shroom
-    - NormalGhostWarrior
-    - NormalSkeletonWarrior
-    - FrigidSpider
-    - FrostSpider
-    - IceSkeletonWarrior
-    - IceSkeletonWarriorNoFx
-    - TanSpider
-    - DwarfGoblin
-    - FireSkeletonWarrior
-    - FireSkeletonWarriorNoFx
-  Sectorthree:
-    - Oozer
-    - Rancid Remains
-    - Skeleton_PoisonCamp
-    - Wraith
-    - Fenring
-    - Cultist
-    - Fuling shaman
-    - GoblinShamanCamp
-    - Fenring_CultistCamp
-    - Fenring_Cultist_HildirCamp
-    - ML_AshHuldra
-    - Molluscan
-    - Prowler_TW
-    - DwarfGoblinShaman
-    - SnowthreadCreeper
-    - HemnarWraith
-    - Jeddyavul
-    - PoisonSkeletonWarrior
-    - PoisonSkeletonWarriorNoFx
-    - ChaosSkeletonWarriorNoFX
-    - WraithWarrior
-    - Razorback_TW
-    - ChaosSkeletonWarrior
-    - OozingSkeleton
-    - Jaegerjedd
-    - Hednarjedd
-    - Markatta
-    - NightfrostSkeleton
-    - VandrarGreyling
-  Sectorfour:
-    - Troll
-    - Abomination
-    - Fuling Berserker
-    - GoblinBruteCamp
-    - Fox_TW
-    - Gnagarbjerv
-    - Crawler_TW
-    - HelWraith_TW
-    - GrizzlyBear_TW
-    - Grymsvin
-  Sectorfive:
-    - Serpent
-    - Stone Golem
-    - GrassweaveArachne
-    - ObsidianGolem_TW
-    - Bergatroll
-    - MolluscanLand
-    - BlackBear_TW
-  Sectorten:
-    - Gull
-  SectoroneMistlands:
-    - Tick
-    - Seeker Brood
-  SectortwoMistlands:
-    - Dvergr Rogue
-    - DvergerCamp
-    - Seeker
-    - SeekerCamp
-    - Charred_Archer
-    - Charred_ArcherCamp
-    - Charred_Twitcher
-    - Charred_TwitcherCamp
-  SectorthreeMistlands:
-    - Dvergr Mage
-    - DvergerMageCamp
-    - Charred_Mage
-    - Charred_MageCamp
-  SectorfourMistlands:
-    - Seeker Soldier
-    - SeekerBruteCamp
-    - Morgen
-    - MorgenCamp
-  SectorfiveMistlands:
-    - Gjall   
 
 Sectorone:
   sector:
