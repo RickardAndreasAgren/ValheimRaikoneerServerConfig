@@ -70,9 +70,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: false
   SwimDepth: 1.3
-  SwimSpeed: 0
+  SwimSpeed: 0.5
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.1
   GroundTilt: Pitch
   GroundTiltSpeed: 50
   Flying: false
@@ -82,7 +82,7 @@ m_characterData:
   TolerateFire: false
   TolerateSmoke: true
   TolerateTar: false
-  Health: 35
+  Health: 30
   BluntResistance: Weak
   SlashResistance: Weak
   PierceResistance: Resistant
@@ -229,7 +229,7 @@ m_defaultItems:
     ToolTier: 0
     Damage: 0
     Blunt: 0
-    Slash: 20
+    Slash: 16
     Pierce: 5
     Chop: 0
     Pickaxe: 0
@@ -323,7 +323,7 @@ m_defaultItems:
     ToolTier: 0
     Damage: 0
     Blunt: 0
-    Slash: 15
+    Slash: 14
     Pierce: 5
     Chop: 0
     Pickaxe: 0
@@ -417,8 +417,8 @@ m_defaultItems:
     ToolTier: 0
     Damage: 0
     Blunt: 0
-    Slash: 10
-    Pierce: 10
+    Slash: 9
+    Pierce: 9
     Chop: 0
     Pickaxe: 0
     Fire: 0
@@ -426,7 +426,7 @@ m_defaultItems:
     Lightning: 0
     Poison: 0
     Spirit: 0
-    AttackForce: 10
+    AttackForce: 8
     Dodgeable: true
     Blockable: true
     SpawnOnHit: ''
@@ -520,7 +520,7 @@ m_defaultItems:
     Lightning: 0
     Poison: 0
     Spirit: 0
-    AttackForce: 30
+    AttackForce: 24
     Dodgeable: true
     Blockable: true
     SpawnOnHit: ''
@@ -584,7 +584,7 @@ m_randomSets: []
 m_monsterAIData:
   ViewRange: 30
   ViewAngle: 90
-  HearRange: 9999
+  HearRange: 50
   MistVision: false
   IdleSoundInterval: 10
   IdleSoundChance: 0.5

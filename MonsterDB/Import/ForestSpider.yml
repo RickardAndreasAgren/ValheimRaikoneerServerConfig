@@ -52,9 +52,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: true
   SwimDepth: 0.1
-  SwimSpeed: 0
+  SwimSpeed: 0.5
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.1
   GroundTilt: FullRaycast
   GroundTiltSpeed: 50
   Flying: false
@@ -216,14 +216,14 @@ m_effects:
   m_randomGoodbyeFX: []
 m_defaultItems:
 - m_attackData:
-    OriginalPrefab: ''
-    Name: spider_jump
+    OriginalPrefab: spider_jump
+    Name: spider_jump_forestspider
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
-    Blunt: 40
+    Blunt: 30
     Slash: 0
-    Pierce: 40
+    Pierce: 20
     Chop: 20
     Pickaxe: 0
     Fire: 0
@@ -310,20 +310,20 @@ m_defaultItems:
     m_triggerEffects: []
     m_trailStartEffects: []
 - m_attackData:
-    OriginalPrefab: ''
-    Name: spider_leftattack
+    OriginalPrefab: spider_leftattack
+    Name: spider_leftattack_forestspider
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
     Blunt: 0
     Slash: 0
-    Pierce: 55
+    Pierce: 35
     Chop: 0
     Pickaxe: 0
     Fire: 0
     Frost: 0
     Lightning: 0
-    Poison: 10
+    Poison: 20
     Spirit: 0
     AttackForce: 30
     Dodgeable: true
@@ -404,20 +404,20 @@ m_defaultItems:
     m_triggerEffects: []
     m_trailStartEffects: []
 - m_attackData:
-    OriginalPrefab: ''
-    Name: spider_rightattack
+    OriginalPrefab: spider_rightattack
+    Name: spider_rightattack_forestspider
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
     Blunt: 0
     Slash: 0
-    Pierce: 55
+    Pierce: 35
     Chop: 0
     Pickaxe: 0
     Fire: 0
     Frost: 0
     Lightning: 0
-    Poison: 10
+    Poison: 25
     Spirit: 0
     AttackForce: 30
     Dodgeable: true
@@ -498,12 +498,12 @@ m_defaultItems:
     m_triggerEffects: []
     m_trailStartEffects: []
 - m_attackData:
-    OriginalPrefab: ''
+    OriginalPrefab: web_attack
     Name: web_attack
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
-    Blunt: 55
+    Blunt: 40
     Slash: 0
     Pierce: 0
     Chop: 0
@@ -511,7 +511,7 @@ m_defaultItems:
     Fire: 0
     Frost: 0
     Lightning: 0
-    Poison: 5
+    Poison: 20
     Spirit: 0
     AttackForce: 30
     Dodgeable: true
@@ -599,7 +599,7 @@ m_randomSets: []
 m_monsterAIData:
   ViewRange: 30
   ViewAngle: 90
-  HearRange: 9999
+  HearRange: 50
   MistVision: false
   IdleSoundInterval: 5
   IdleSoundChance: 0.5
@@ -624,7 +624,7 @@ m_monsterAIData:
   FlyAbsMinAltitude: 32
   AvoidFire: true
   AfraidOfFire: true
-  AvoidWater: true
+  AvoidWater: false
   AvoidLava: true
   SkipLavaTargets: false
   Aggravatable: false

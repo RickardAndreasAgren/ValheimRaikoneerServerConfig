@@ -1,5 +1,143 @@
 equipment:
+  biome order:
+    - meadows
+    - black forest
+    - swamp
+    - ocean
+    - mountain
+    - plains
+    - mistlands
+    - ash lands
+  meadows:
+    low health: 10
+    high health: 40
+    resource map:
+      - deer hide
+      - flint
+      - leather scraps
+      - boar trophy
+      - deer trophy
+  black forest:
+    low health: 40
+    high health: 140
+    resource map:
+      - bronze
+      - bronze nails
+      - copper
+      - tin
+      - bone fragments
+      - skeleton trophy
+      - corewood
+      - surtling core
+      - troll hide
+      - trollbone_tW
+      - troll trophy
+      - greydwarf trophy
+      - greydwarf brute trophy
+      - greydwarf shaman trophy
+      - rancid remains trophy
+  swamp:
+    low health: 50
+    high health: 180
+    resource map:
+      - iron
+      - iron nails
+      - root
+      - guck
+      - chitin
+      - chain
+      - ooze
+      - withered bone
+      - abomination trophy
+      - blob trophy
+      - draugr trophy
+      - draugr elite trophy
+      - leech trophy
+      - surtling trophy
+      - wraith trophy
+      - venomousfang_tw
+      - rottenpelt_TW
+  mountain:
+    low health: 60
+    high health: 250
+    resource map:
+      - silver
+      - wolf pelt
+      - wolf fang
+      - obsidian
+      - crystal
+      - ancient bark
+      - freeze gland
+      - red jute
+      - fenris hair
+      - fenris claw
+      - cultist trophy
+      - fenring trophy
+      - drake trophy
+      - stone golem trophy
+      - ulv trophy
+      - wolf trophy
+  plains:
+    low health: 120
+    high health: 400
+    resource map:
+      - linen thread
+      - black metal
+      - lox pelt
+      - needle
+      - deathsquito trophy
+      - fuling trophy
+      - fuling berserker trophy
+      - fuling shaman trophy
+      - growth trophy
+      - lox trophy
+      - thungr trophy
+      - zil trophy
+  mistlands:
+    low health: 150
+    high health: 600
+    resource map:
+      - refined eitr
+      - yggdrasil wood
+      - black marble
+      - scale hide
+      - bilebag
+      - mandible
+      - carapace
+      - blue jute
+      - geirrhafa trophy
+      - dvergr trophy
+      - gjall trophy
+      - hare trophy
+      - seeker trophy
+      - seeker soldier trophy
+      - tick trophy
+  ocean:
+    low health: 60
+    high health: 150
+    resource map:
+      - serpent scale
+      - chitin
+      - serpent trophy
+  ash lands:
+    low health: 200
+    high health: 1200
+    resource map:
+      - flametal
+      - asksvin hide
+      - ashwood
+      - morgen sinew
+      - asksvin trophy
+      - marksman trophy
+      - warlock trophy
+      - warrior trophy
+      - morgen trophy
+      - brenna trophy
+      - volture trophy
   blacklist:
+    - jewelers bag
+    - butcher knife
+    - deer
     - jewelers bag
     - butcher knife
     - kungsfrende

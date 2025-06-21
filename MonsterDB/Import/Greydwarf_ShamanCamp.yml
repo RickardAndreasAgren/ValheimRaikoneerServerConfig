@@ -70,9 +70,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: true
   SwimDepth: 2
-  SwimSpeed: 0
+  SwimSpeed: 0.5
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.1
   GroundTilt: None
   GroundTiltSpeed: 50
   Flying: false
@@ -556,7 +556,7 @@ m_randomSets: []
 m_monsterAIData:
   ViewRange: 30
   ViewAngle: 90
-  HearRange: 9999
+  HearRange: 50
   MistVision: false
   IdleSoundInterval: 10
   IdleSoundChance: 0.5
@@ -581,7 +581,7 @@ m_monsterAIData:
   FlyAbsMinAltitude: 32
   AvoidFire: false
   AfraidOfFire: false
-  AvoidWater: true
+  AvoidWater: false
   AvoidLava: true
   SkipLavaTargets: false
   Aggravatable: false

@@ -34,9 +34,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: false
   SwimDepth: 0.5
-  SwimSpeed: 0
+  SwimSpeed: 0.5
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.1
   GroundTilt: None
   GroundTiltSpeed: 50
   Flying: true

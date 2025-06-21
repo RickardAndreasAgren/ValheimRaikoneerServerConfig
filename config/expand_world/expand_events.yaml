@@ -1,7 +1,7 @@
 - name: army_eikthyr
-  customChance: 100
+  customChance: 40
   duration: 90
-  biome: Meadows, BlackForest
+  biome: BlackForest
   notRequiredGlobalKeys: defeated_eikthyr
   notRequiredPlayerKeys: GP_Eikthyr
   notRequiredKnownItems: PickaxeAntler, PickaxeBronze, PickaxeIron, HardAntler, TrophyEikthyr
@@ -28,9 +28,9 @@
     groupRadius: 1
     huntPlayer: true
 - name: army_goblin
-  customChance: 100
-  duration: 120
-  biome: Meadows, BlackForest, Plains
+  customChance: 40
+  duration: 90
+  biome: Plains
   requiredGlobalKeys: defeated_dragon
   notRequiredGlobalKeys: defeated_goblinking
   requiredPlayerKeys: $se_moder_name
@@ -73,9 +73,9 @@
     groupRadius: 1
     huntPlayer: true
 - name: army_theelder
-  customChance: 100
-  duration: 120
-  biome: Meadows, Swamp, BlackForest, Plains
+  customChance: 40
+  duration: 90
+  biome: Swamp, BlackForest, Plains
   requiredGlobalKeys: defeated_eikthyr
   notRequiredGlobalKeys: defeated_gdking
   requiredPlayerKeys: GP_TheElder
@@ -127,8 +127,8 @@
     huntPlayer: true
     groundOffset: 0
 - name: wolves
-  customChance: 100
-  duration: 120
+  customChance: 40
+  duration: 60
   nearBaseOnly: false
   biome: Mountain, Plains
   requiredGlobalKeys: defeated_bonemass
@@ -139,7 +139,7 @@
   forceMusic: CombatEventL3
   spawns:
   - prefab: Wolf
-    biome: Mountain, Plains, 128
+    biome: Mountain, Plains
     maxSpawned: 6
     spawnInterval: 2
     minAltitude: 0
@@ -150,9 +150,9 @@
     groundOffset: 0
   pauseIfNoPlayerInArea: false
 - name: skeletons
-  customChance: 100
-  duration: 120
-  biome: Meadows, Swamp, Mountain, BlackForest, Plains, Mistlands
+  customChance: 50
+  duration: 90
+  biome: Swamp, Mountain, BlackForest, Plains, Mistlands
   requiredGlobalKeys: defeated_bonemass
   requiredPlayerKeys: GP_Bonemass
   requiredKnownItems: TrophyBonemass, Wishbone
@@ -182,9 +182,9 @@
     huntPlayer: true
     groundOffset: 0
 - name: army_bonemass
-  customChance: 100
-  duration: 150
-  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  customChance: 40
+  duration: 90
+  biome: Swamp, Mountain, Plains
   requiredGlobalKeys: defeated_gdking
   notRequiredGlobalKeys: defeated_bonemass
   requiredPlayerKeys: GP_TheElder
@@ -217,9 +217,9 @@
     huntPlayer: true
     groundOffset: 0
 - name: army_moder
-  customChance: 100
-  duration: 150
-  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  customChance: 40
+  duration: 120
+  biome: Mountain, Plains
   requiredGlobalKeys: defeated_bonemass
   notRequiredGlobalKeys: defeated_dragon
   requiredPlayerKeys: $se_bonemass_name
@@ -243,9 +243,9 @@
     huntPlayer: true
     groundOffset: 10
 - name: blobs
-  customChance: 100
-  duration: 120
-  biome: Meadows, Swamp, BlackForest, Plains
+  customChance: 40
+  duration: 60
+  biome: Swamp, BlackForest, Plains
   requiredGlobalKeys: defeated_bonemass
   requiredPlayerKeys: GP_Bonemass
   requiredKnownItems: TrophyBonemass, Wishbone
@@ -276,9 +276,9 @@
     huntPlayer: true
     groundOffset: 0
 - name: foresttrolls
-  customChance: 100
+  customChance: 0
   duration: 80
-  biome: Meadows, Swamp, BlackForest, Plains
+  biome: Plains
   requiredGlobalKeys: KilledTroll, defeated_gdking
   requiredPlayerKeysAll: KilledTroll, defeated_gdking
   requiredKnownItems: TrophyTheElder, CryptKey
@@ -297,9 +297,9 @@
     huntPlayer: true
     groundOffset: 0
 - name: surtlings
-  customChance: 100
-  duration: 120
-  biome: Meadows, Swamp, BlackForest, Plains
+  customChance: 40
+  duration: 60
+  biome: Swamp, Plains
   requiredGlobalKeys: killed_surtling, defeated_bonemass
   requiredPlayerKeysAll: killed_surtling, defeated_bonemass
   requiredKnownItems: TrophyBonemass, Wishbone
@@ -364,9 +364,9 @@
   spawns: []
   random: false
 - name: army_theelder
-  customChance: 100
-  duration: 120
-  biome: Meadows, Swamp, BlackForest, Plains
+  customChance: 50
+  duration: 90
+  biome: Swamp, BlackForest, Plains
   requiredGlobalKeys: defeated_eikthyr
   notRequiredGlobalKeys: defeated_gdking
   requiredPlayerKeys: GP_Eikthyr
@@ -418,9 +418,9 @@
     huntPlayer: true
     groundOffset: 0
 - name: army_moder
-  customChance: 100
-  duration: 150
-  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  customChance: 50
+  duration: 90
+  biome: Mountain, Plains
   requiredGlobalKeys: defeated_bonemass
   notRequiredGlobalKeys: defeated_dragon
   requiredPlayerKeys: GP_Bonemass
@@ -444,9 +444,9 @@
     huntPlayer: true
     groundOffset: 10
 - name: ghosts
-  customChance: 100
-  duration: 150
-  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  customChance: 50
+  duration: 90
+  biome: Swamp, Mountain, BlackForest, Plains
   requiredGlobalKeys: defeated_bonemass
   requiredPlayerKeys: GP_Bonemass
   notRequiredPlayerKeys: GP_Moder
@@ -480,8 +480,9 @@
     huntPlayer: true
     groundOffset: 10
 - name: bats
-  customChance: 100
-  duration: 120
+  customChance: 50
+  duration: 60
+  biome: Swamp, Mountain, BlackForest, Plains
   requiredGlobalKeys: KilledBat, defeated_bonemass
   requiredPlayerKeysAll: KilledBat, defeated_bonemass
   startMessage: $event_bats_start
@@ -509,8 +510,8 @@
   spawns: []
   random: false
 - name: army_gjall
-  customChance: 100
-  duration: 90
+  customChance: 50
+  duration: 75
   biome: Mistlands
   requiredGlobalKeys: defeated_goblinking
   notRequiredGlobalKeys: defeated_queen
@@ -540,9 +541,9 @@
     groupRadius: 1
     huntPlayer: true
 - name: army_seekers
-  customChance: 100
-  duration: 90
-  biome: BlackForest, Plains, AshLands, DeepNorth, Mistlands
+  customChance: 50
+  duration: 120
+  biome: Plains, AshLands, DeepNorth, Mistlands
   requiredGlobalKeys: defeated_goblinking
   notRequiredGlobalKeys: defeated_queen
   notRequiredPlayerKeys: GP_Queen
@@ -553,7 +554,7 @@
   forceMusic: CombatEventL1
   spawns:
   - prefab: Seeker
-    maxSpawned: 3
+    maxSpawned: 2
     spawnInterval: 35
     minAltitude: 0
     maxAltitude: 1000
@@ -561,7 +562,7 @@
     groupRadius: 1
     huntPlayer: true
   - prefab: SeekerBrood
-    maxSpawned: 8
+    maxSpawned: 5
     spawnInterval: 20
     minAltitude: 0
     maxAltitude: 1000
@@ -726,9 +727,9 @@
   spawns: []
   random: false
 - name: army_charred
-  customChance: 100
+  customChance: 50
   duration: 90
-  biome: BlackForest, Plains, AshLands, DeepNorth, Mistlands
+  biome: Plains, AshLands, DeepNorth, Mistlands
   requiredGlobalKeys: defeated_queen
   notRequiredGlobalKeys: defeated_fader
   startMessage: $event_charredarmy_start
@@ -752,7 +753,7 @@
     groupRadius: 1
     huntPlayer: true
   - prefab: Charred_Archer
-    maxSpawned: 3
+    maxSpawned: 2
     spawnInterval: 50
     minAltitude: 0
     maxAltitude: 1000
@@ -760,9 +761,9 @@
     groupRadius: 1
     huntPlayer: true
 - name: army_charredspawners
-  customChance: 100
+  customChance: 50
   duration: 90
-  biome: BlackForest, Plains, AshLands, DeepNorth, Mistlands
+  biome: Plains, AshLands, DeepNorth, Mistlands
   requiredGlobalKeys: defeated_queen
   notRequiredGlobalKeys: defeated_fader
   startMessage: $event_charredspawnerarmy_start

@@ -124,7 +124,7 @@ m_characterData:
   AirControl: 0.1
   CanSwim: true
   SwimDepth: 1.16
-  SwimSpeed: 0
+  SwimSpeed: 0.5
   SwimTurnSpeed: 1
   SwimAcceleration: 0.2
   GroundTilt: None
@@ -406,7 +406,7 @@ m_randomSets: []
 m_monsterAIData:
   ViewRange: 50
   ViewAngle: 360
-  HearRange: 9999
+  HearRange: 50
   MistVision: false
   IdleSoundInterval: 3
   IdleSoundChance: 0.5

@@ -467,6 +467,11 @@ groups:
     - Grymsvin
     - Grassweave Orb
     - Deathsquito
+    - Cultist Scion
+    - Zealot
+    - Morgen
+    - Lurmorgen
+    - Bonemaw
   BlackForestCamp:
     - Ignited Guard
     - Greydwarf Lurker
@@ -634,7 +639,8 @@ groups:
     - Morgen
     - Lurmorgen
   SectorfiveMistlands:
-    - Gjall   
+    - Gjall
+    - Bonemaw
 
 Skeleton_NoArcher:
   Meadows:
@@ -671,6 +677,8 @@ Strong Enemies:
   effect:
     Armored: 0
     Splitting: 0
+    Regenerating: 0.5
+    Armored: 0.5
   Meadows:
     stars:
         0: [15, 6, 3, 0, 0]

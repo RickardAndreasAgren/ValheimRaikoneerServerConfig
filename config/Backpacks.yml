@@ -1,0 +1,316 @@
+Explorers Backpack: # Give your backpack an amazing name! Quote the name if you want to use special characters. "Blaxxun's Pack":
+  description: "A backpack for the traveller. Carries food shinies cloths leathers knives bows trophies potions arrows bolts and seeds." # And a descriptive description!
+  size: 4x2 # This means 6 columns and 3 rows so 18 slots in your backpack. Keep it small! Don't go higher than 8 here. Valheim doesn't like that at all.
+  unique: global # This sets how many backpacks you can have in your inventory. See below for more info.
+  weight factor: 0.8
+  appearance: # Now make it really unique and personalized it's just your backpack after all!
+    BackpackBody: 407be3
+    BackpackFlap: 407be3
+    BackpackStrapBottom: hidden
+    BackpackStrapTop: hidden # Hide the straps that were holding the sleepbag as well.
+    Knife: visible
+    Knifesheath: visible
+    MetalclipLeft: visible
+    MetalclipFrontLeft: visible
+    MetalclipFrontRight: visible
+    Pickaxe: hidden
+    Pot: hidden
+    PouchFront: hidden
+    PouchLeft: hidden
+    RingBottomLeft: hidden
+    Sleepbag: hidden
+    Teapot: visible
+    ToolstrapBottom: visible
+    ToolstrapTop: hidden
+  crafting: # Make your backpack craftable.
+    station: Workbench # The crafting station where you can craft your backpack.
+    level: 3 # The required crafting station level to craft your backpack.
+    costs: # The cost for crafting your backpack.
+      BronzeNails: 5
+      DeerHide: 10
+      LeatherScraps: 10
+  valid items: # Define what items can go into your backpack.
+    - food
+    - valuable
+    - knives
+    - bows
+    - trophy
+    - boss trophy
+    - seed
+    - arrows
+    - bolts
+    - Resin
+    - Bloodbag
+    - JuteRed
+    - JuteBlue
+    - AskHide
+    - LeatherScraps
+    - DeerHide
+    - ScaleHide
+    - TrollHide
+    - WolfPelt
+    - LoxPelt
+    - ArrowCarapace
+    - Bilebag
+    - BoltBone
+    - BoltCarapace
+    - BowSpineSnap
+    - BugMeat
+    - Carapace
+    - ChickenEgg
+    - ChickenMeat
+    - CookedBugMeat
+    - CookedEgg
+    - CookedHareMeat
+    - GiantBloodSack
+    - HareMeat
+    - HoneyGlazedChickenUncooked
+    - MagicallyStuffedShroomUncooked
+    - Mandible
+    - MeadEitrLingering
+    - MeadEitrMinor
+    - MeadHealthLingering
+    - MeadHealthMajor
+    - MeadLightfoot
+    - MeadStaminaLingering
+    - MeatPlatterUncooked
+    - MisthareSupremeUncooked
+    - MushroomJotunPuffs
+    - MushroomMagecap
+    - RoyalJelly
+    - ScaleHide
+    - ArrowCharred
+    - AskHide
+    - AsksvinMeat
+    - BoltCharred
+    - BoneMawSerpentMeat
+    - BowAshlands
+    - BowAshlandsBlood
+    - BowAshlandsRoot
+    - BowAshlandsStorm
+    - CelestialFeather
+    - CharredBone
+    - Charredskull
+    - CookedAsksvinMeat
+    - CookedBoneMawSerpentMeat
+    - CookedVoltureMeat
+    - FeastAshlands_Material
+    - GemstoneBlue
+    - GemstoneGreen
+    - GemstoneRed
+    - MorgenSinew
+    - PiquantPieUncooked
+    - ProustitePowder
+    - RoastedCrustPieUncooked
+    - TrophyAsksvin
+    - TrophyCharredArcher
+    - TrophyCharredMage
+    - TrophyCharredMelee
+    - TrophyVolture
+    - VoltureMeat
+    - DragonEgg
+  upgrade: # Can your backpack be upgraded? Define as many upgrades as you want!
+    1: # Config for the first upgrade.
+      WolfPelt: 5
+      IronNails: 6
+      size: 4x3
+    2:
+      JuteRed: 4
+      LoxPelt: 2
+      LinenThread: 5
+      size: 5x3
+    3:
+      LinenThread: 4
+      BlackMetal: 1
+      Carapace: 1
+      ElderBark: 2
+      size: 5x4
+
+# Iron:5:2ElderBark:10:2Guck:2:2Silver:5:3WolfPelt:3:3JuteRed:2:3BlackMetal:5:4LinenThread:10:4LoxPelt:2:4JuteBlue:5:5ScaleHide:5:5Carapace:5:5      
+# Valid backpack parts are: ToolstrapBottom Pickaxe RingBottomLeft BackpackBody MetalclipLeft ToolstrapTop
+  # PouchFront PouchLeft Knifesheath Knife MetalclipFrontRight Pot Sleepbag BackpackStrapTop BackpackStrapBottom
+  # MetalclipFrontLeft BackpackFlap Teapot.
+
+Workers Backpack: 
+  description: "A backpack for the hard worker. Stores ore metal stone wood crops pickaxes axes and capes." # And a descriptive description!
+  size: 4x2 # This means 6 columns and 3 rows so 18 slots in your backpack. Keep it small! Don't go higher than 8 here. Valheim doesn't like that at all.
+  unique: global # This sets how many backpacks you can have in your inventory. See below for more info.
+  weight factor: 0.8
+  teleport: true
+  appearance: # Now make it really unique and personalized it's just your backpack after all!
+    BackpackBody: 9eb86e
+    BackpackFlap: 9eb86e
+    BackpackStrapBottom: visible
+    BackpackStrapTop: hidden # Hide the straps that were holding the sleepbag as well.
+    Knife: hidden
+    Knifesheath: hidden
+    MetalclipLeft: visible
+    MetalclipFrontLeft: visible
+    MetalclipFrontRight: hidden
+    Pickaxe: visible
+    Pot: hidden
+    PouchFront: hidden
+    PouchLeft: hidden
+    RingBottomLeft: hidden
+    Sleepbag: hidden
+    Teapot: hidden
+    ToolstrapBottom: hidden
+    ToolstrapTop: visible
+  crafting: # Make your backpack craftable.
+    station: Workbench # The crafting station where you can craft your backpack.
+    level: 3 # The required crafting station level to craft your backpack.
+    costs: # The cost for crafting your backpack.
+      BronzeNails: 5
+      DeerHide: 10
+      LeatherScraps: 10
+  valid items: # Define what items can go into your backpack.
+    - ore
+    - woods
+    - metal
+    - crop
+    - pickaxes
+    - axes
+    - cape
+    - DvergrNeedle
+    - Stone
+    - BlackMarble
+    - Coal
+    - AxeJotunBane
+    - BlackMarble
+    - DvergrNeedle
+    - Eitr
+    - MushroomJotunPuffs
+    - MushroomMagecap
+    - PickaxeBlackMetal
+    - Sap
+    - Softtissue
+    - YggdrasilWood
+    - AxeBerzerkr
+    - AxeBerzerkrBlood
+    - AxeBerzerkrLightning
+    - AxeBerzerkrNature
+    - Blackwood
+    - CharcoalResin
+    - FlametalNew
+    - Grausten
+    - SulfurStone
+  upgrade: # Can your backpack be upgraded? Define as many upgrades as you want!
+    1: # Config for the first upgrade.
+      WolfPelt: 5
+      IronNails: 6
+      size: 4x3
+    2:
+      JuteRed: 4
+      LoxPelt: 2
+      LinenThread: 5
+      size: 5x3
+    3:
+      LinenThread: 4
+      BlackMetal: 1
+      Carapace: 1
+      ElderBark: 2
+      size: 5x4
+
+Warriors Backpack: # Give your backpack an amazing name! Quote the name if you want to use special characters. "Blaxxun's Pack":
+  description: "A backpack for a conqueror. Can hold food helmets knives swords arrows bolts crossbows and maces." # And a descriptive description!
+  size: 4x2 # This means 6 columns and 3 rows so 18 slots in your backpack. Keep it small! Don't go higher than 8 here. Valheim doesn't like that at all.
+  unique: global # This sets how many backpacks you can have in your inventory. See below for more info.
+  weight factor: 0.8
+  appearance: # Now make it really unique and personalized it's just your backpack after all!
+    BackpackBody: b56b60
+    BackpackFlap: b56b60
+    BackpackStrapBottom: hidden
+    BackpackStrapTop: hidden # Hide the straps that were holding the sleepbag as well.
+    Knife: hidden
+    Knifesheath: hidden
+    MetalclipLeft: hidden
+    MetalclipFrontLeft: hidden
+    MetalclipFrontRight: hidden
+    Pickaxe: hidden
+    Pot: hidden
+    PouchFront: hidden
+    PouchLeft: visible
+    RingBottomLeft: hidden
+    Sleepbag: hidden
+    Teapot: hidden
+    ToolstrapBottom: hidden
+    ToolstrapTop: hidden
+  crafting: # Make your backpack craftable.
+    station: Workbench # The crafting station where you can craft your backpack.
+    level: 4 # The required crafting station level to craft your backpack.
+    costs: # The cost for crafting your backpack.
+      WolfPelt: 3
+      IronNails: 2
+      JuteRed: 4
+  valid items: # Define what items can go into your backpack.
+    - food
+    - helmet
+    - knives
+    - swords
+    - clubs
+    - arrows
+    - bolts
+    - crossbows
+    - ArrowCharred
+    - BoltCharred
+    - CrossbowRipper
+    - CrossbowRipperBlood
+    - CrossbowRipperLightning
+    - CrossbowRipperNature
+    - SwordNiedhogg
+    - SwordNiedhoggBlood
+    - SwordNiedhoggLightning
+    - SwordNiedhoggNature
+    - ArrowCarapace
+    - BoltBone
+    - BoltCarapace
+    - CrossbowArbalest
+    - KnifeSkollAndHati
+    - SwordMistwalker
+    - DragonEgg
+  upgrade: # Can your backpack be upgraded? Define as many upgrades as you want!
+    1: # Config for the first upgrade.
+      LinenThread: 2
+      IronNails: 1
+      JuteRed: 4
+      size: 4x3 # The new size after upgrading the backpack for the first time. 6 columns and 4 rows so one row more than the base!
+    2:
+      LinenThread: 2
+      ElderBark: 4
+      size: 5x3
+
+# You can also use weight factor to make items in your backpack lighter!
+# weight factor: 0.8
+# Would mean that items in your backpack only weigh 80% of their original weight!
+# You can use teleport to allow every content in your backpack to be taken through a portal even if it wouldn't work otherwise!
+# teleport: true
+# Would mean that you can put your ore into the backpack and take it through a portal!
+
+# If you want no item restriction for your backpack simply remove the "valid items" section of the config.
+
+# Unique flags:
+# global: Exclusive with any other backpack.
+# restricted: Exclusive with backpacks that have no item restrictions.
+# type: Exclusive with backpacks with the same type.
+# bypass: Not exclusive bypass all restrictions. Supersedes any other flag.
+# none: Same as bypass but doesn't overrule all other flags.
+
+# Backpack parts can either be 'visible' or 'hidden'. To color them use the hex code of the color you want to use.
+# Valid backpack parts are: ToolstrapBottom Pickaxe RingBottomLeft BackpackBody MetalclipLeft ToolstrapTop
+  # PouchFront PouchLeft Knifesheath Knife MetalclipFrontRight Pot Sleepbag BackpackStrapTop BackpackStrapBottom
+  # MetalclipFrontLeft BackpackFlap Teapot.
+# Predefined item groups you can use for the valid items are:
+# ore metal food potions woods trophy boss trophy valuable seed crop stackable.
+# pants chest helmet cape armor.
+# axes clubs knives pickaxes polearms spears swords bows crossbows weapon arrows bolts ammo.
+# round shield tower shield shield.
+# special (fishing rod and megingjord) tool equipment.
+# You can also define your very own item groups!
+# groups:
+#   content of my backpack:
+#     - Stone
+#     - Wood
+#   content of my other backpack:
+#     - Silver
+#     - Iron
+# This would create the groups "content of my backpack" and "content of my other backpack" and allows you to use these groups as valid items for your backpack.

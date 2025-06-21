@@ -1,0 +1,115 @@
+===Meadows===
+HP 5-20
+DMG 5-10
+
+===BlackForest===
+-Totals
+HP 40-100-150-600
+DMG 24-45-60
+
+-Light
+HP 40-60
+DMG 24-45
+
+-Medium
+HP 100-150
+DMG 25-50
+
+-Heavy
+HP 600
+DMG 50-70
+
+===Swamp===
+-Totals
+HP 20-100-200-800
+DMG 50-60-115
+
+-Light
+HP 20-60
+DMG 50-90
+
+-Medium
+HP 100-200
+DMG 60-100
+
+-Heavy
+HP 150
+DMG 115
+HP 800
+DMG 60-80
+
+===Mountain===
+-Totals
+HP 50-100-300-800
+DMG 70-90-110
+
+-Light
+HP 50-100
+DMG 70-90
+
+-Medium
+HP 200-300
+DMG 75-95
+
+-Heavy
+HP 800
+DMG 110
+
+===Plains===
+-Totals
+HP 100-175-800-1000
+DMG 85-120-130
+
+-Light
+HP 100-175
+DMG 85-120
+
+-Medium
+HP 800
+DMG 130
+
+-Heavy
+HP 1000
+DMG 130
+
+===Mistlands===
+-Totals
+HP 20-200-350-1500
+DMG 50-130-200
+
+-Light
+HP 20-50
+DMG 50-60
+
+-Medium
+HP 200-350
+DMG 70-200
+
+-Heavy
+HP 1500
+DMG 100-120
+
+HP 1500
+DMG 20-130
+
+===Ashlands===
+-Totals
+HP 200-400-800-1600
+DMG 60-120-160
+
+-Light
+HP 200-300
+DMG 60-120
+
+-Medium
+HP 400-800
+DMG 70-160
+
+-Heavy
+HP 1100-1600
+DMG 140-160
+
+===Deepnorth===
+-Light
+-Medium
+-Heavy

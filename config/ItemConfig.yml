@@ -39,9 +39,7 @@ Huge Wood Stacks:
 
 # This will increase wood gained by 10%, until you reach the first world level.
 wood:
-  amount:
-    0: 1.2
-    1: default
+  amount: 1.2
     
 # This will make dragon eggs teleportable.
 dragon egg:

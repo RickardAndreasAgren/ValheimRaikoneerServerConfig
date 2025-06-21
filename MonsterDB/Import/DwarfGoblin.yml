@@ -39,8 +39,8 @@ m_characterData:
   CrouchSpeed: 2
   WalkSpeed: 0.5
   Speed: 1
-  TurnSpeed: 300
-  RunSpeed: 5
+  TurnSpeed: 320
+  RunSpeed: 5.2
   RunTurnSpeed: 100
   FlySlowSpeed: 5
   FlyFastSpeed: 12
@@ -52,9 +52,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: true
   SwimDepth: 0.8
-  SwimSpeed: 0
+  SwimSpeed: 0.4
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.2
   GroundTilt: None
   GroundTiltSpeed: 50
   Flying: false
@@ -64,7 +64,7 @@ m_characterData:
   TolerateFire: false
   TolerateSmoke: false
   TolerateTar: false
-  Health: 80
+  Health: 145
   BluntResistance: Normal
   SlashResistance: Normal
   PierceResistance: Normal
@@ -1689,133 +1689,6 @@ m_randomSets:
       m_trailStartEffects: []
   - m_attackData:
       OriginalPrefab: ''
-      Name: DwarfGoblinShieldBlackMetal
-      AnimationState: Shield
-      ToolTier: 0
-      Damage: 0
-      Blunt: 10
-      Slash: 0
-      Pierce: 0
-      Chop: 0
-      Pickaxe: 0
-      Fire: 0
-      Frost: 0
-      Lightning: 0
-      Poison: 0
-      Spirit: 0
-      AttackForce: 50
-      Dodgeable: true
-      Blockable: true
-      SpawnOnHit: ''
-      SpawnOnHitTerrain: ''
-      AttackStatusEffect: ''
-      AttackStatusEffectChance: 1
-      AttackType: Horizontal
-      AttackAnimation: ''
-      HitTerrain: true
-      HitFriendly: false
-      DamageMultiplier: 1
-      DamageMultiplierPerMissingHP: 0
-      DamageMultiplierByTotalHealthMissing: 0
-      ForceMultiplier: 1
-      StaggerMultiplier: 1
-      RecoilPushback: 0
-      SelfDamage: 0
-      AttackOriginJoint: ''
-      AttackRange: 2.4
-      AttackHeight: 0.8
-      AttackOffset: 0
-      SpawnOnTrigger: ''
-      ToggleFlying: false
-      Attach: false
-      AttackAngle: 90
-      AttackRayWidth: 0
-      MaxYAngle: 0
-      LowerDamagePerHit: true
-      HitThroughWalls: false
-      AttackRangeMinimum: 0
-      AttackInterval: 2
-      AttackMaxAngle: 5
-      Projectile: ''
-      MaterialOverride: ''
-    m_effects:
-      m_hitEffects:
-      - PrefabName: vfx_clubhit
-        Enabled: true
-        Variant: -1
-        Attach: false
-        Follow: false
-        InheritParentRotation: false
-        InheritParentScale: false
-        MultiplyParentVisualScale: false
-        RandomRotation: false
-        Scale: false
-        ChildTransform: ''
-      - PrefabName: sfx_club_hit
-        Enabled: true
-        Variant: -1
-        Attach: false
-        Follow: false
-        InheritParentRotation: false
-        InheritParentScale: false
-        MultiplyParentVisualScale: false
-        RandomRotation: false
-        Scale: false
-        ChildTransform: ''
-      m_hitTerrainEffects: []
-      m_blockEffects:
-      - PrefabName: sfx_wood_blocked
-        Enabled: true
-        Variant: -1
-        Attach: false
-        Follow: false
-        InheritParentRotation: false
-        InheritParentScale: false
-        MultiplyParentVisualScale: false
-        RandomRotation: false
-        Scale: false
-        ChildTransform: ''
-      - PrefabName: vfx_blocked
-        Enabled: true
-        Variant: -1
-        Attach: false
-        Follow: false
-        InheritParentRotation: false
-        InheritParentScale: false
-        MultiplyParentVisualScale: false
-        RandomRotation: false
-        Scale: false
-        ChildTransform: ''
-      - PrefabName: fx_block_camshake
-        Enabled: true
-        Variant: -1
-        Attach: false
-        Follow: false
-        InheritParentRotation: false
-        InheritParentScale: false
-        MultiplyParentVisualScale: false
-        RandomRotation: false
-        Scale: false
-        ChildTransform: ''
-      m_startEffects:
-      - PrefabName: sfx_club_swing
-        Enabled: true
-        Variant: -1
-        Attach: false
-        Follow: false
-        InheritParentRotation: false
-        InheritParentScale: false
-        MultiplyParentVisualScale: false
-        RandomRotation: false
-        Scale: false
-        ChildTransform: ''
-      m_holdStartEffects: []
-      m_equipEffects: []
-      m_unEquipEffects: []
-      m_triggerEffects: []
-      m_trailStartEffects: []
-  - m_attackData:
-      OriginalPrefab: ''
       Name: DwarfGoblinShoulderPadIron
       AnimationState: OneHanded
       ToolTier: 0
@@ -2305,7 +2178,7 @@ m_randomSets:
 m_monsterAIData:
   ViewRange: 30
   ViewAngle: 90
-  HearRange: 9999
+  HearRange: 50
   MistVision: false
   IdleSoundInterval: 10
   IdleSoundChance: 0.5
@@ -2416,6 +2289,13 @@ m_characterDrops:
   AmountMin: 3
   AmountMax: 5
   Chance: 1
+  OnePerPlayer: false
+  LevelMultiplier: true
+  DoNotScale: false
+- PrefabName: BlackMetalScrap
+  AmountMin: 1
+  AmountMax: 1
+  Chance: 0.25
   OnePerPlayer: false
   LevelMultiplier: true
   DoNotScale: false

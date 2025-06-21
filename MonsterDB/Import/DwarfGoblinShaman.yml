@@ -52,9 +52,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: true
   SwimDepth: 0.8
-  SwimSpeed: 0
+  SwimSpeed: 0.2
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.1
   GroundTilt: None
   GroundTiltSpeed: 50
   Flying: false
@@ -64,7 +64,7 @@ m_characterData:
   TolerateFire: false
   TolerateSmoke: false
   TolerateTar: false
-  Health: 60
+  Health: 90
   BluntResistance: Normal
   SlashResistance: Normal
   PierceResistance: Normal
@@ -262,7 +262,7 @@ m_defaultItems:
     LowerDamagePerHit: true
     HitThroughWalls: false
     AttackRangeMinimum: 0
-    AttackInterval: 1
+    AttackInterval: 1.5
     AttackMaxAngle: 10
     Projectile: GoblinShaman_projectile_fireball
     MaterialOverride: ''
@@ -775,7 +775,7 @@ m_randomSets:
 m_monsterAIData:
   ViewRange: 40
   ViewAngle: 90
-  HearRange: 9999
+  HearRange: 50
   MistVision: false
   IdleSoundInterval: 10
   IdleSoundChance: 0.5
@@ -800,7 +800,7 @@ m_monsterAIData:
   FlyAbsMinAltitude: 32
   AvoidFire: true
   AfraidOfFire: false
-  AvoidWater: true
+  AvoidWater: false
   AvoidLava: true
   SkipLavaTargets: false
   Aggravatable: false

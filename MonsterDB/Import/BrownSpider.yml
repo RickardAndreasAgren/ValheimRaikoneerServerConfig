@@ -52,9 +52,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: true
   SwimDepth: 0.1
-  SwimSpeed: 0
+  SwimSpeed: 0.5
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.1
   GroundTilt: FullRaycast
   GroundTiltSpeed: 50
   Flying: false
@@ -216,14 +216,14 @@ m_effects:
   m_randomGoodbyeFX: []
 m_defaultItems:
 - m_attackData:
-    OriginalPrefab: ''
-    Name: cavespider_leftattack
+    OriginalPrefab: cavespider_leftattack
+    Name: cavespider_leftattack_brownspider
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
     Blunt: 0
     Slash: 0
-    Pierce: 60
+    Pierce: 40
     Chop: 0
     Pickaxe: 0
     Fire: 0
@@ -310,20 +310,20 @@ m_defaultItems:
     m_triggerEffects: []
     m_trailStartEffects: []
 - m_attackData:
-    OriginalPrefab: ''
-    Name: cavespider_rightattack
+    OriginalPrefab: cavespider_rightattack
+    Name: cavespider_rightattack_brownspider
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
     Blunt: 0
     Slash: 0
-    Pierce: 60
+    Pierce: 30
     Chop: 0
     Pickaxe: 0
     Fire: 0
     Frost: 0
     Lightning: 0
-    Poison: 20
+    Poison: 30
     Spirit: 0
     AttackForce: 15
     Dodgeable: true
@@ -404,8 +404,8 @@ m_defaultItems:
     m_triggerEffects: []
     m_trailStartEffects: []
 - m_attackData:
-    OriginalPrefab: ''
-    Name: spider_dodgeb
+    OriginalPrefab: spider_dodgeb
+    Name: spider_dodgeb_brownspider
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
@@ -450,7 +450,7 @@ m_defaultItems:
     LowerDamagePerHit: true
     HitThroughWalls: false
     AttackRangeMinimum: 0
-    AttackInterval: 1
+    AttackInterval: 1.5
     AttackMaxAngle: 45
     Projectile: ''
     MaterialOverride: ''
@@ -498,14 +498,14 @@ m_defaultItems:
     m_triggerEffects: []
     m_trailStartEffects: []
 - m_attackData:
-    OriginalPrefab: ''
-    Name: spider_jump
+    OriginalPrefab: spider_jump
+    Name: spider_jump_brownspider
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
     Blunt: 25
     Slash: 0
-    Pierce: 25
+    Pierce: 15
     Chop: 0
     Pickaxe: 0
     Fire: 0
@@ -599,7 +599,7 @@ m_randomSets: []
 m_monsterAIData:
   ViewRange: 30
   ViewAngle: 90
-  HearRange: 9999
+  HearRange: 50
   MistVision: false
   IdleSoundInterval: 5
   IdleSoundChance: 0.5
@@ -624,7 +624,7 @@ m_monsterAIData:
   FlyAbsMinAltitude: 32
   AvoidFire: false
   AfraidOfFire: false
-  AvoidWater: true
+  AvoidWater: false
   AvoidLava: true
   SkipLavaTargets: false
   Aggravatable: false

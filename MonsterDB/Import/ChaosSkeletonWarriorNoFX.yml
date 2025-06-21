@@ -52,9 +52,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: false
   SwimDepth: 0.8
-  SwimSpeed: 0
+  SwimSpeed: 0.5
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.1
   GroundTilt: None
   GroundTiltSpeed: 50
   Flying: false
@@ -205,8 +205,8 @@ m_effects:
   m_randomGoodbyeFX: []
 m_defaultItems:
 - m_attackData:
-    OriginalPrefab: ''
-    Name: attack_shield
+    OriginalPrefab: attack_shield
+    Name: attack_shield_chaosnofx
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
@@ -251,7 +251,7 @@ m_defaultItems:
     LowerDamagePerHit: true
     HitThroughWalls: false
     AttackRangeMinimum: 0
-    AttackInterval: 1
+    AttackInterval: 4
     AttackMaxAngle: 25
     Projectile: ''
     MaterialOverride: ''
@@ -310,13 +310,13 @@ m_defaultItems:
     m_triggerEffects: []
     m_trailStartEffects: []
 - m_attackData:
-    OriginalPrefab: ''
-    Name: attack_sword_right180
+    OriginalPrefab: attack_sword_right180
+    Name: attack_sword_right180_chaosnofx
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
     Blunt: 0
-    Slash: 55
+    Slash: 35
     Pierce: 0
     Chop: 0
     Pickaxe: 0
@@ -356,7 +356,7 @@ m_defaultItems:
     LowerDamagePerHit: true
     HitThroughWalls: false
     AttackRangeMinimum: 0
-    AttackInterval: 1
+    AttackInterval: 1.5
     AttackMaxAngle: 360
     Projectile: ''
     MaterialOverride: ''
@@ -459,13 +459,13 @@ m_defaultItems:
       Scale: false
       ChildTransform: ''
 - m_attackData:
-    OriginalPrefab: ''
-    Name: attack_sword_rightlong
+    OriginalPrefab: attack_sword_rightlong
+    Name: attack_sword_rightlong_chaosnofx
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
     Blunt: 0
-    Slash: 55
+    Slash: 45
     Pierce: 0
     Chop: 0
     Pickaxe: 0
@@ -505,7 +505,7 @@ m_defaultItems:
     LowerDamagePerHit: true
     HitThroughWalls: false
     AttackRangeMinimum: 1.5
-    AttackInterval: 1
+    AttackInterval: 2.2
     AttackMaxAngle: 25
     Projectile: ''
     MaterialOverride: ''
@@ -608,13 +608,13 @@ m_defaultItems:
       Scale: false
       ChildTransform: ''
 - m_attackData:
-    OriginalPrefab: ''
-    Name: attack_sword_slash
+    OriginalPrefab: attack_sword_slash
+    Name: attack_sword_slash_chaosnofx
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
     Blunt: 0
-    Slash: 55
+    Slash: 45
     Pierce: 0
     Chop: 0
     Pickaxe: 0
@@ -654,7 +654,7 @@ m_defaultItems:
     LowerDamagePerHit: true
     HitThroughWalls: false
     AttackRangeMinimum: 1.5
-    AttackInterval: 1
+    AttackInterval: 2
     AttackMaxAngle: 25
     Projectile: ''
     MaterialOverride: ''
@@ -757,8 +757,8 @@ m_defaultItems:
       Scale: false
       ChildTransform: ''
 - m_attackData:
-    OriginalPrefab: ''
-    Name: NPC_SwordIron_Right
+    OriginalPrefab: NPC_SwordIron_Right
+    Name: NPC_SwordIron_Right_chaosnofx
     AnimationState: OneHanded
     ToolTier: 0
     Damage: 0
@@ -818,8 +818,8 @@ m_defaultItems:
     m_triggerEffects: []
     m_trailStartEffects: []
 - m_attackData:
-    OriginalPrefab: ''
-    Name: ShieldBanded
+    OriginalPrefab: ShieldBanded
+    Name: ShieldBanded_chaosnofx
     AnimationState: Shield
     ToolTier: 0
     Damage: 0
@@ -952,7 +952,7 @@ m_randomSets: []
 m_monsterAIData:
   ViewRange: 30
   ViewAngle: 90
-  HearRange: 9999
+  HearRange: 50
   MistVision: false
   IdleSoundInterval: 5
   IdleSoundChance: 0.5

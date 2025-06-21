@@ -34,9 +34,9 @@ m_characterData:
   AirControl: 0.1
   CanSwim: false
   SwimDepth: 0.5
-  SwimSpeed: 0
+  SwimSpeed: 0.5
   SwimTurnSpeed: 100
-  SwimAcceleration: 0.05
+  SwimAcceleration: 0.1
   GroundTilt: None
   GroundTiltSpeed: 50
   Flying: true
@@ -175,7 +175,7 @@ m_monsterAIData:
   FlyAbsMinAltitude: 0
   AvoidFire: false
   AfraidOfFire: false
-  AvoidWater: false
+  AvoidWater: true
   AvoidLava: false
   SkipLavaTargets: false
   Aggravatable: false
@@ -245,7 +245,7 @@ m_animalAIData:
   FlyAbsMinAltitude: 32
   AvoidFire: false
   AfraidOfFire: false
-  AvoidWater: true
+  AvoidWater: false
   AvoidLava: true
   SkipLavaTargets: false
   Aggravatable: true
