@@ -1,9 +1,0 @@
-{
-	"name": "Bestiary",
-	"version_number": "0.0.2",
-	"website_url": "",
-	"description": "Collection of Creatures",
-	"dependencies": [
-		"denikson-BepInExPack_Valheim-5.4.2105"
-	]
-}

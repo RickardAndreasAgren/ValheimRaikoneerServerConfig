@@ -1,21 +1,27 @@
+====Bestiary====
 Bergatroll - Mountain @NorthTroll_RS
 Grymsvin - Plains @WereBoar_RS
 Gnagarbjerv - BlackForest @Rat_RS
+Jaegerjedd - BlackForest(UnlockedBy MistlandsBoss) @LizardFish_RS
+Hednarjedd - BlackForest(UnlockedBy MistlandsBoss) @Catfish_RS
+Jeddyavul - Swamp(UnlockedBy MountainBoss) @LizardFish_RS
 
+====Monstrum====
+Markatta - BlackForest(UnlockedBy PlainsBoss) @Prowler_TW
+
+====MonsterLabZ====
 Vandrar Greyling - Meadows (UnlockedBy BlackForestBoss) @Greydwarf_Purple
-Slem - Meadows (UnlockedBy SwampBoss) @Ooze
 Oozing Skeleton - BlackForest (UnlockedBy SwampBoss) @PoisonSkeletonWarrior
 NightfrostSkeleton - Meadows(UnlockedBy MountainBoss) @IceSkeletonWarrior
 FrostsilkCreeper - BlackForest(UnlockedBy MountainBoss) @FrostSpider
-Jeddyavul - Swamp(UnlockedBy MountainBoss) @LizardFish_RS
 Lillfuling - Meadows(UnlockedBy PlainsBoss) @DwarfGoblin
 Fingerfuling - Meadows(UnlockedBy PlainsBoss) @DwarfGoblinLoot
-Markatta - BlackForest(UnlockedBy PlainsBoss) @Prowler_TW
 WrathWisp - Swamp(UnlockedBy PlainsBoss) @ML_RedMistile_Aggressive
 HemnarWraith - Mountain(UnlockedBy PlainsBoss) @NormalGhostWarrior
 Kraeftare - Meadows(UnlockedBy MistlandsBoss) @Molluscan
-Jaegerjedd - BlackForest(UnlockedBy MistlandsBoss) @LizardFish_RS
-Hednarjedd - BlackForest(UnlockedBy MistlandsBoss) @Catfish_RS
+SnowthreadCreeper - Mountain(UnlockedBy MistlandsBoss) @FrigidSpider
+GrassweaveArachne - Plains(UnlockedBy MistlandsBoss) @TanSpider
+
+====Vanilla====
 Sludge Boar - Swamp(UnlockedBy MistlandsBoss) @Boar
-SnowthreadCreeper - Mountain(UnlockedBy MistlandsBoss) @=FrigidSpider=
-GrassweaveArachne - Plains(UnlockedBy MistlandsBoss) @=TanSpider=
+Slem - Meadows (UnlockedBy SwampBoss) @Ooze

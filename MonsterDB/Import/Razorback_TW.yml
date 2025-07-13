@@ -1,0 +1,809 @@
+m_scale:
+  x: 1
+  y: 1
+  z: 1
+m_ragdollScale:
+  x: 1.5
+  y: 1.5
+  z: 1.5
+m_materials:
+  M_Boar_Legacy:
+    ShaderType: Legacy Shaders/Bumped Specular
+    Name: M_Boar_Legacy
+    _Color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    _MainTex: Razorback_texture
+    _EmissionColor:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    Transparent: false
+    _Hue: 0
+    _Value: 0
+    _Saturation: 0
+m_characterData:
+  ClonedFrom: ''
+  PrefabName: Razorback_TW
+  Name: $razorback_TW
+  Group: boar
+  Faction: ForestMonsters
+  Boss: false
+  DoNotHideBossHUD: false
+  BossEvent: ''
+  DefeatSetGlobalKey: ''
+  AISkipTarget: false
+  CrouchSpeed: 2
+  WalkSpeed: 5
+  Speed: 1.8
+  TurnSpeed: 100
+  RunSpeed: 8
+  RunTurnSpeed: 200
+  FlySlowSpeed: 5
+  FlyFastSpeed: 12
+  FlyTurnSpeed: 12
+  Acceleration: 0.8
+  JumpForce: 10
+  JumpForceForward: 0
+  JumpForceTiredFactor: 0.7
+  AirControl: 0.1
+  CanSwim: true
+  SwimDepth: 0.81
+  SwimSpeed: 0.6
+  SwimTurnSpeed: 100
+  SwimAcceleration: 0.1
+  GroundTilt: Pitch
+  GroundTiltSpeed: 50
+  Flying: false
+  JumpStaminaUsage: 10
+  DisableWhileSleeping: false
+  TolerateWater: true
+  TolerateFire: false
+  TolerateSmoke: false
+  TolerateTar: false
+  Health: 50
+  BluntResistance: Normal
+  SlashResistance: Normal
+  PierceResistance: Normal
+  ChopResistance: Ignore
+  PickaxeResistance: Ignore
+  FireResistance: Normal
+  FrostResistance: Normal
+  LightningResistance: Normal
+  PoisonResistance: Normal
+  SpiritResistance: Immune
+  StaggerWhenBlocked: true
+  StaggerDamageFactor: 0.5
+m_effects:
+  m_hitEffects:
+  - PrefabName: vfx_hog_hit_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  - PrefabName: sfx_hog_hit_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_critHitEffects:
+  - PrefabName: fx_crit_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_backstabHitEffects:
+  - PrefabName: fx_backstab_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_deathEffects:
+  - PrefabName: vfx_hog_death_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  - PrefabName: TMMonsterItemRazorbackRagdoll_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  - PrefabName: sfx_hog_death_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_waterEffects:
+  - PrefabName: vfx_water_surface_TW
+    Enabled: true
+    Variant: -1
+    Attach: true
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_tarEffects: []
+  m_slideEffects: []
+  m_jumpEffects: []
+  m_flyingContinuousEffects: []
+  m_pickupEffects: []
+  m_dropEffects: []
+  m_consumeItemEffects:
+  - PrefabName: sfx_creature_consume_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_equipEffects: []
+  m_perfectBlockEffects: []
+  m_alertedEffects:
+  - PrefabName: sfx_hog_alerted_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_idleSounds:
+  - PrefabName: sfx_hog_idle_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_wakeupEffects: []
+  m_birthEffects:
+  - PrefabName: sfx_hog_birth_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  - PrefabName: vfx_boar_birth_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_loveEffects:
+  - PrefabName: sfx_hog_love_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  - PrefabName: vfx_boar_love_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_tamedEffects:
+  - PrefabName: fx_creature_tamed_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_soothEffects:
+  - PrefabName: vfx_creature_soothed_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_petEffects:
+  - PrefabName: fx_hog_pet_TW
+    Enabled: true
+    Variant: -1
+    Attach: false
+    Follow: false
+    InheritParentRotation: false
+    InheritParentScale: false
+    MultiplyParentVisualScale: false
+    RandomRotation: false
+    Scale: false
+    ChildTransform: ''
+  m_unSummonEffects: []
+  m_randomTalkFX: []
+  m_randomGreetFX: []
+  m_randomGoodbyeFX: []
+m_defaultItems:
+- m_attackData:
+    OriginalPrefab: ''
+    Name: TMMonsterItem_hog_base_attack
+    AnimationState: OneHanded
+    ToolTier: 0
+    Damage: 0
+    Blunt: 0
+    Slash: 15
+    Pierce: 0
+    Chop: 0
+    Pickaxe: 0
+    Fire: 0
+    Frost: 0
+    Lightning: 0
+    Poison: 0
+    Spirit: 0
+    AttackForce: 40
+    Dodgeable: true
+    Blockable: true
+    SpawnOnHit: ''
+    SpawnOnHitTerrain: ''
+    AttackStatusEffect: ''
+    AttackStatusEffectChance: 1
+    AttackType: Horizontal
+    AttackAnimation: base_attack
+    HitTerrain: true
+    HitFriendly: false
+    DamageMultiplier: 1
+    DamageMultiplierPerMissingHP: 0
+    DamageMultiplierByTotalHealthMissing: 0
+    ForceMultiplier: 1
+    StaggerMultiplier: 1
+    RecoilPushback: 0
+    SelfDamage: 0
+    AttackOriginJoint: ''
+    AttackRange: 1.5
+    AttackHeight: 1
+    AttackOffset: 0
+    SpawnOnTrigger: ''
+    ToggleFlying: false
+    Attach: false
+    AttackAngle: 45.2
+    AttackRayWidth: 0.4
+    MaxYAngle: 0
+    LowerDamagePerHit: true
+    HitThroughWalls: false
+    AttackRangeMinimum: 0
+    AttackInterval: 5
+    AttackMaxAngle: 5
+    Projectile: ''
+    MaterialOverride: ''
+  m_effects:
+    m_hitEffects:
+    - PrefabName: vfx_HitSparksTW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    - PrefabName: sfx_wolf_attack_hit_TW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    m_hitTerrainEffects: []
+    m_blockEffects: []
+    m_startEffects:
+    - PrefabName: sfx_hog_attack_TW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    m_holdStartEffects: []
+    m_equipEffects: []
+    m_unEquipEffects: []
+    m_triggerEffects: []
+    m_trailStartEffects: []
+- m_attackData:
+    OriginalPrefab: ''
+    Name: TMMonsterItem_hog_charge_attack
+    AnimationState: OneHanded
+    ToolTier: 0
+    Damage: 0
+    Blunt: 0
+    Slash: 22
+    Pierce: 0
+    Chop: 0
+    Pickaxe: 0
+    Fire: 0
+    Frost: 0
+    Lightning: 0
+    Poison: 0
+    Spirit: 0
+    AttackForce: 120
+    Dodgeable: true
+    Blockable: true
+    SpawnOnHit: ''
+    SpawnOnHitTerrain: ''
+    AttackStatusEffect: ''
+    AttackStatusEffectChance: 1
+    AttackType: Horizontal
+    AttackAnimation: chargeattackhog
+    HitTerrain: true
+    HitFriendly: false
+    DamageMultiplier: 1
+    DamageMultiplierPerMissingHP: 0
+    DamageMultiplierByTotalHealthMissing: 0
+    ForceMultiplier: 1
+    StaggerMultiplier: 1
+    RecoilPushback: 0
+    SelfDamage: 0
+    AttackOriginJoint: ''
+    AttackRange: 1.5
+    AttackHeight: 1
+    AttackOffset: 0
+    SpawnOnTrigger: ''
+    ToggleFlying: false
+    Attach: false
+    AttackAngle: 45.2
+    AttackRayWidth: 0.4
+    MaxYAngle: 0
+    LowerDamagePerHit: true
+    HitThroughWalls: false
+    AttackRangeMinimum: 3.5
+    AttackInterval: 12
+    AttackMaxAngle: 10
+    Projectile: ''
+    MaterialOverride: ''
+  m_effects:
+    m_hitEffects:
+    - PrefabName: vfx_HitSparksTW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    - PrefabName: sfx_wolf_attack_hit_TW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    m_hitTerrainEffects: []
+    m_blockEffects: []
+    m_startEffects:
+    - PrefabName: sfx_hog_charge_TW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    m_holdStartEffects: []
+    m_equipEffects: []
+    m_unEquipEffects: []
+    m_triggerEffects: []
+    m_trailStartEffects: []
+- m_attackData:
+    OriginalPrefab: ''
+    Name: TMMonsterItem_hog_jump_attack
+    AnimationState: OneHanded
+    ToolTier: 0
+    Damage: 0
+    Blunt: 0
+    Slash: 19
+    Pierce: 0
+    Chop: 0
+    Pickaxe: 0
+    Fire: 0
+    Frost: 0
+    Lightning: 0
+    Poison: 0
+    Spirit: 0
+    AttackForce: 55
+    Dodgeable: true
+    Blockable: true
+    SpawnOnHit: ''
+    SpawnOnHitTerrain: ''
+    AttackStatusEffect: ''
+    AttackStatusEffectChance: 1
+    AttackType: Horizontal
+    AttackAnimation: jumpattack
+    HitTerrain: true
+    HitFriendly: false
+    DamageMultiplier: 1
+    DamageMultiplierPerMissingHP: 0
+    DamageMultiplierByTotalHealthMissing: 0
+    ForceMultiplier: 1
+    StaggerMultiplier: 1
+    RecoilPushback: 0
+    SelfDamage: 0
+    AttackOriginJoint: ''
+    AttackRange: 1.5
+    AttackHeight: 1
+    AttackOffset: 0
+    SpawnOnTrigger: ''
+    ToggleFlying: false
+    Attach: false
+    AttackAngle: 45.2
+    AttackRayWidth: 0.4
+    MaxYAngle: 0
+    LowerDamagePerHit: true
+    HitThroughWalls: false
+    AttackRangeMinimum: 0
+    AttackInterval: 7
+    AttackMaxAngle: 5
+    Projectile: ''
+    MaterialOverride: ''
+  m_effects:
+    m_hitEffects:
+    - PrefabName: vfx_HitSparksTW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    - PrefabName: sfx_wolf_attack_hit_TW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    m_hitTerrainEffects: []
+    m_blockEffects: []
+    m_startEffects:
+    - PrefabName: sfx_hog_attack_TW
+      Enabled: true
+      Variant: -1
+      Attach: false
+      Follow: false
+      InheritParentRotation: false
+      InheritParentScale: false
+      MultiplyParentVisualScale: false
+      RandomRotation: false
+      Scale: false
+      ChildTransform: ''
+    m_holdStartEffects: []
+    m_equipEffects: []
+    m_unEquipEffects: []
+    m_triggerEffects: []
+    m_trailStartEffects: []
+m_randomWeapons: []
+m_randomArmors: []
+m_randomShields: []
+m_randomItems: []
+m_randomSets: []
+m_monsterAIData:
+  ViewRange: 20
+  ViewAngle: 90
+  HearRange: 20
+  MistVision: false
+  IdleSoundInterval: 15
+  IdleSoundChance: 0.5
+  PathAgentType: Humanoid
+  MoveMinAngle: 90
+  SmoothMovement: true
+  SerpentMovement: false
+  SerpentTurnRadius: 20
+  JumpInterval: 0
+  RandomCircleInterval: 2
+  RandomMoveInterval: 30
+  RandomMoveRange: 10
+  RandomFly: false
+  ChanceToTakeOff: 1
+  ChanceToLand: 1
+  GroundDuration: 10
+  AirDuration: 10
+  MaxLandAltitude: 5
+  TakeoffTime: 5
+  FlyAltitudeMin: 3
+  FlyAltitudeMax: 10
+  FlyAbsMinAltitude: 32
+  AvoidFire: true
+  AfraidOfFire: true
+  AvoidWater: true
+  AvoidLava: true
+  SkipLavaTargets: false
+  Aggravatable: false
+  PassiveAggressive: false
+  SpawnMessage: ''
+  DeathMessage: ''
+  AlertedMessage: ''
+  FleeRange: 25
+  FleeAngle: 45
+  FleeInterval: 2
+  AlertRange: 6
+  FleeIfHurtWhenTargetCannotBeReached: true
+  FleeUnreachableSinceAttack: 30
+  FleeUnreachableSinceHurt: 20
+  FleeIfNotAlerted: true
+  FleeIfLowHealth: 0
+  FleeTimeSinceHurt: 0
+  FleeInLava: true
+  CirculateWhileCharging: true
+  CirculateWhileChargingFlying: false
+  EnableHuntPlayer: false
+  AttackPlayerObjects: true
+  PrivateAreaTriggerThreshold: 4
+  InterceptTimeMax: 1
+  InterceptTimeMin: 0
+  MaxChaseDistance: 300
+  MinAttackInterval: 3
+  CircleTargetInterval: 0
+  CircleTargetDuration: 5
+  CircleTargetDistance: 10
+  Sleeping: false
+  WakeupRange: 5
+  NoiseWakeup: false
+  MaxNoiseWakeupRange: 50
+  WakeupDelayMin: 0
+  WakeupDelayMax: 0
+  AvoidLand: false
+  ConsumeItems:
+  - Turnip
+  - Carrot
+  - Onion
+  - Mushroom
+  - Raspberry
+  - Blueberries
+  - MushroomYellow
+  - RawMeat
+  ConsumeRange: 1
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+m_animalAIData:
+  ViewRange: 0
+  ViewAngle: 0
+  HearRange: 0
+  MistVision: false
+  IdleSoundInterval: 0
+  IdleSoundChance: 0
+  PathAgentType: ''
+  MoveMinAngle: 0
+  SmoothMovement: false
+  SerpentMovement: false
+  SerpentTurnRadius: 0
+  JumpInterval: 0
+  RandomCircleInterval: 0
+  RandomMoveInterval: 0
+  RandomMoveRange: 0
+  RandomFly: false
+  ChanceToTakeOff: 0
+  ChanceToLand: 0
+  GroundDuration: 0
+  AirDuration: 0
+  MaxLandAltitude: 0
+  TakeoffTime: 0
+  FlyAltitudeMin: 0
+  FlyAltitudeMax: 0
+  FlyAbsMinAltitude: 0
+  AvoidFire: false
+  AfraidOfFire: false
+  AvoidWater: false
+  AvoidLava: false
+  SkipLavaTargets: false
+  Aggravatable: false
+  PassiveAggressive: false
+  SpawnMessage: ''
+  DeathMessage: ''
+  AlertedMessage: ''
+  FleeRange: 0
+  FleeAngle: 0
+  FleeInterval: 0
+m_characterDrops:
+- PrefabName: RawMeat
+  AmountMin: 1
+  AmountMax: 1
+  Chance: 0.9
+  OnePerPlayer: false
+  LevelMultiplier: true
+  DoNotScale: false
+- PrefabName: RazorbackLeather_TW
+  AmountMin: 1
+  AmountMax: 1
+  Chance: 1
+  OnePerPlayer: false
+  LevelMultiplier: true
+  DoNotScale: false
+- PrefabName: RazorbackTusk_TW
+  AmountMin: 1
+  AmountMax: 2
+  Chance: 0.7
+  OnePerPlayer: false
+  LevelMultiplier: true
+  DoNotScale: false
+- PrefabName: TrophyRazorback_TW
+  AmountMin: 1
+  AmountMax: 1
+  Chance: 0.18
+  OnePerPlayer: false
+  LevelMultiplier: false
+  DoNotScale: false
+m_tameable:
+  FedDuration: 600
+  TamingTime: 1800
+  StartTamed: false
+  Commandable: true
+  UnsummonDistance: 0
+  UnsummonOnOwnerLogoutSeconds: 0
+  LevelUpOwnerSkill: None
+  LevelUpFactor: 1
+  DropSaddleOnDeath: true
+  RandomStartingName: []
+m_procreation:
+  UpdateInterval: 30
+  TotalCheckRange: 10
+  MaxCreatures: 5
+  PartnerCheckRange: 3
+  PregnancyChance: 0.25
+  PregnancyDuration: 90
+  RequiredLovePoints: 3
+  Offspring: RazorbackPiggy_TW
+  MinOffspringLevel: 0
+  SpawnOffset: 1
+m_npcTalk:
+  Name: ''
+  MaxRange: 0
+  GreetRange: 0
+  ByeRange: 0
+  Offset: 0
+  MinTalkInterval: 0
+  HideDialogueDelay: 0
+  RandomTalkInterval: 0
+  RandomTalkChance: 0
+  RandomTalk: []
+  RandomTalkInFactionBase: []
+  RandomGreets: []
+  RandomGoodbye: []
+  PrivateAreaAlarm: []
+  Aggravated: []
+m_growUp:
+  GrowTime: 0
+  InheritTame: false
+  GrownPrefab: ''
+  AltGrownPrefabs: []
+m_levelEffects:
+- Scale: 1
+  Hue: 0.05
+  Saturation: -0.1
+  Value: 0
+  SetEmissiveColor: false
+  EmissiveColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  EnableObject: ''
+- Scale: 1
+  Hue: 0.09
+  Saturation: -0.5
+  Value: -0.05
+  SetEmissiveColor: false
+  EmissiveColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  EnableObject: ''
+m_particles: {}
+m_humanData:
+  ModelIndex: 0
+  BeardIndex: 0
+  HairIndex: 0
